@@ -1,0 +1,22 @@
+#!/bin/bash
+#Converts all .svg files in a folder to specified format and dpi using inkscape
+#
+format=$1
+
+if [ $format = "--help" ]; then
+    echo "Converts all .svg files in the current directory"
+    echo "to a specified format and dpi using inkscape"
+    echo ""
+    echo "Usage:"
+    echo "inkscape-convert format dpi"
+    echo ""
+    echo "e.g."
+    echo "inkscape-convert pdf 100"
+else
+    dp=$2
+    for f in *.svg
+    do
+        s="${f%.*}"
+        inkscape $s.svg --export-$format=$s.$format --export-dpi=$dp
+    done
+fi

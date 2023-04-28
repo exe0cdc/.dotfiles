@@ -1,0 +1,7 @@
+#!/bin/bash
+killall compton
+xrandr --auto
+xrandr --output DP-3 --off
+xrandr --output eDP-1 --auto
+xrandr --dpi 96
+compton --config ~/.config/compt.conf -b

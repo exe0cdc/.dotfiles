@@ -1,0 +1,72 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Opens an arbitrary file using xdg-open on a specified i3 workspace.
+
+# This script takes two arguments where the first is a number from 0 to 11
+# signifying a i3 workspace and the second is the path of a file to open.
+# Thus a file is opened using xdg-open on a specific workspace and
+# the workspace is set back to the parent workspace.
+
+from sys import argv
+import subprocess
+import logging
+import json
+
+# Logging setup
+logging.basicConfig(filename='/home/carl/bin/logs/i3_exec_workspace.log',
+                    level=logging.DEBUG)
+
+# Log arguments
+logging.debug('Arguments:')
+logging.debug(argv)
+
+# 1st argument is the workspace number
+# 2nd argument is the path to file to open
+workspace_num = int(argv[1])
+file_to_open = argv[2]
+
+# Unfortunately this list is hardcoded. In the future it might be able
+# to point to the i3 config or to get the actual workspaces in the
+# correct order.
+workspaces_list = (u"1:1",
+                   u"2:2",
+                   u"3:3",
+                   u"4:4",
+                   u"5:5",
+                   u"6:6",
+                   u"7:7",
+                   u"8:8",
+                   u"9:9",
+                   u"10:0",
+                   u"11:-",
+                   u"12:+",)
+
+# Gets the focussed "parent" workspace that will be returned to
+raw_output_current_workspaces = subprocess.check_output(['i3-msg',
+                                                         '-t',
+                                                         'get_workspaces'])
+current_workspaces = json.loads(raw_output_current_workspaces)
+for each in current_workspaces:
+    if each[u'focused']:
+        parent_workspace = each[u'name']
+
+# Go to the specified workspace
+subprocess.call(['i3-msg',
+                 'workspace',
+                 workspaces_list[workspace_num]])
+
+# Open the file using xdg-open
+result = subprocess.check_output(['i3-msg',
+                                  'exec',
+                                  'xdg-open',
+                                  '"%s"' % file_to_open])
+
+# Log result
+logging.debug('xdg-open result:')
+logging.debug(result)
+
+# Go back to parent workspace
+subprocess.call(['i3-msg',
+                 'workspace',
+                 parent_workspace])

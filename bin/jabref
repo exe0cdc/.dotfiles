@@ -1,0 +1,2 @@
+#!/bin/sh
+java -jar /home/carl/Applications/JabRef-4.3.1.jar

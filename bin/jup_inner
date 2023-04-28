@@ -1,0 +1,9 @@
+#!/bin/bash
+virtual_env=$1
+application=$2
+
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+export NVM_DIR="$HOME/.nvm"
+ [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+workon $virtual_env;$application
+exit 0

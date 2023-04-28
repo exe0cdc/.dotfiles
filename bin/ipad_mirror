@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gst-launch-1.0 --gst-plugin-load="/home/carl/bin/libgstairplay.so" airplaysrc ! queue ! h264parse ! avdec_h264 max-threads=1 ! autovideosink
+
+

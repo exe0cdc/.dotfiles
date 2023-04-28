@@ -1,0 +1,10 @@
+#!/bin/bash
+virtual_env=$1
+application=$2
+
+source /home/carl/miniconda3/etc/profile.d/conda.sh
+echo $virtual_env
+export NVM_DIR="$HOME/.nvm"
+ [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+conda activate $virtual_env;$application
+# exit 0

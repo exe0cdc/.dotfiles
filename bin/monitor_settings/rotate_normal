@@ -1,0 +1,4 @@
+#!/bin/sh
+killall compton
+xrandr --output DP-3 --rotate normal
+compton --config ~/.config/compt.conf -b

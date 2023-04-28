@@ -1,0 +1,4 @@
+#!/bin/sh
+killall nm-applet
+killall NetworkManager
+i3exit shutdown

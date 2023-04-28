@@ -1,0 +1,3 @@
+#!/bin/sh
+amixer -q set Headphone 100 unmute
+urxvt -e cmus

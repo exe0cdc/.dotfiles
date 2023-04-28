@@ -1,0 +1,32 @@
+#!/usr/bin/python3
+
+from sys import argv
+import subprocess
+
+COMMANDS = ['play','pause','play-pause','stop','next','previous',]
+
+def get_players():
+    return subprocess.check_output(['playerctl','-l']).decode().split('\n')[:-1]
+
+def check_player(player='spotify'):
+    if player in get_players():
+        return player
+
+def make_func(command_str):
+    def func(player=None):
+        command = ['playerctl', command_str]
+        if player:
+            command.append('--player={}'.format(player))
+        subprocess.call(command)
+    return func
+
+def do_command(command_str):
+    if command_str in COMMANDS:
+        func = make_func(command_str)
+        func(check_player())
+
+def main():
+    do_command(argv[1])
+
+if __name__ == '__main__':
+    main()

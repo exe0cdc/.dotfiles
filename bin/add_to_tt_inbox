@@ -1,0 +1,51 @@
+#!/usr/bin/env python
+
+from sys import argv
+import subprocess
+import logging
+import json
+import time
+
+task = argv[1]
+
+# get all workspaces
+raw_output_current_workspaces = subprocess.check_output(['i3-msg',
+                                                         '-t',
+                                                         'get_workspaces'])
+
+# get current workspace
+current_workspaces = json.loads(raw_output_current_workspaces)
+for each in current_workspaces:
+    if each[u'focused']:
+        parent_workspace = each[u'name']
+
+# save contents of clipboard
+old_clipboard = subprocess.check_output(['xclip','-o'])
+
+# replace contents of clipboard with task from argv
+ps = subprocess.Popen(['echo', '^Inbox {}'.format(task)],stdout=subprocess.PIPE)
+subprocess.call(['xclip','-selection','clipboard'],stdin=ps.stdout)
+
+# focus tick tick
+subprocess.check_output(['i3-msg',
+    '[class="^Google-chrome$" instance="^www.ticktick.com$"]',
+    'focus'])
+
+
+# create new task using keyboard commands
+subprocess.call(['xdotool','key','n'])
+subprocess.call(['xdotool','key','ctrl+v'])
+time.sleep(0.1)
+subprocess.call(['xdotool','key','Return'])
+
+# Go back to original workspace
+subprocess.call(['i3-msg',
+                 'workspace',
+                 parent_workspace])
+
+
+# replace clipboard contents with original
+ps = subprocess.Popen(['echo', '{}'.format(old_clipboard)],stdout=subprocess.PIPE)
+subprocess.call(['xclip','-selection','clipboard'],stdin=ps.stdout)
+
+
