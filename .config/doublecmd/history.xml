@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <History>
+    <Navigation>
+      <Item>/home/carl/</Item>
+      <Item>/home/carl/.dotfiles/</Item>
+      <Item>/home/carl/.config/</Item>
+      <Item>/home/carl/.config/i3/</Item>
+      <Item>/home/</Item>
+      <Item>/home/carl/bin/</Item>
+      <Item>/home/carl/bin/base16-mate-terminal/</Item>
+      <Item>/home/carl/.oh-my-zsh/</Item>
+      <Item>/home/carl/.ssh/</Item>
+      <Item>/home/carl/base16-mate-terminal/</Item>
+      <Item>/home/carl/bin/logs/</Item>
+      <Item>/home/carl/bin/monitor_settings/</Item>
+      <Item>/home/carl/Downloads/</Item>
+      <Item>/media/carl/</Item>
+      <Item>/</Item>
+      <Item>/media/</Item>
+      <Item>/media/carl/Expansion/Media/unsorted/movies/</Item>
+      <Item>/media/carl/Expansion/Media/unsorted/movies/Color.Out.of.Space.2019.1080p.BluRay.x265-RARBG/</Item>
+      <Item>/media/carl/Expansion/Media/unsorted/movies/The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG/</Item>
+      <Item>/media/carl/6359054E0780D94B/</Item>
+      <Item>/home/carl/MediaDownloads/</Item>
+      <Item>/media/carl/Expansion/Media/unsorted/movies/The Witches (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/</Item>
+      <Item>/media/carl/Expansion/Media/unsorted/movies/Memories (1995) [1080p] [BluRay] [5.1] [YTS.MX]/</Item>
+      <Item>/media/carl/Expansion/Media/unsorted/movies/Midsommar (2019) [2160p] [4K] [BluRay] [5.1] [YTS.MX]/</Item>
+      <Item>/media/carl/Expansion/Media/unsorted/movies/appleseed/</Item>
+      <Item>/media/carl/Expansion/Media/unsorted/movies/The Wolf House (2018) [1080p] [WEBRip] [YTS.MX]/</Item>
+      <Item>/home/carl/MediaDownloads/The French Dispatch 2021 1080p Bluray DTS-HD MA 5 1 X264-EVO/</Item>
+      <Item>/media/carl/Expansion/Media/unsorted/</Item>
+      <Item>/media/carl/Expansion/Media/</Item>
+      <Item>/media/carl/Expansion/</Item>
+      <Item>/home/carl/MediaDownloads/The.French.Dispatch.2021.1080p.Bluray.DTS-HD.MA.5.1.X264-EVO/</Item>
+      <Item>/media/carl/160gb/</Item>
+      <Item>/media/carl/160gb/Super Smash Bros Brawl [USA] [Wii] [English] [Torrentmas.Com]/</Item>
+      <Item>/media/carl/160gb/$RECYCLE.BIN/</Item>
+      <Item>/media/carl/160gb/$RECYCLE.BIN/S-1-5-21-4040092702-3036288792-3533539538-1001/</Item>
+      <Item>/media/carl/160gb/$RECYCLE.BIN/S-1-5-21-887164895-1392926251-888874300-1001/</Item>
+      <Item>/media/carl/160gb/$RECYCLE.BIN/S-1-5-21-1703598781-4176225478-2515718094-1001/</Item>
+      <Item>/media/carl/160gb/games/</Item>
+      <Item>/media/carl/160gb/games/steam/</Item>
+      <Item>/media/carl/160gb/games/steam/steamapps/</Item>
+      <Item>/media/carl/160gb/games/steam/steamapps/common/</Item>
+      <Item>/media/carl/160gb/Music/</Item>
+      <Item>/media/carl/160gb/series/</Item>
+      <Item>/media/carl/160gb/books/</Item>
+      <Item>/media/carl/160gb/WiiBackupManager_Build78/</Item>
+      <Item>/media/carl/160gb/POSTER/</Item>
+      <Item>/media/carl/160gb/575 Wallpapers (All 1080p, No watermarks) - Imgur/</Item>
+      <Item>/media/carl/9ea22b58-c444-4997-80bc-ef1f08c42d27/</Item>
+      <Item>/media/carl/3721-C057/</Item>
+      <Item>/media/carl/3721-C057/NESRen/</Item>
+      <Item>/media/carl/3721-C057/sega_roms/</Item>
+    </Navigation>
+    <CommandLine>
+      <Item>cd /home/carl/miniconda3/envs/powerbi_reporting_env/lib/python3.8/site-packages/azure/ai/ml/</Item>
+      <Item>subl .zshrc</Item>
+      <Item>cd /slow/R/x86_64-pc-linux-gnu-library/3.4/doAzureParallel</Item>
+      <Item>touch setup.py</Item>
+      <Item>touch access_token</Item>
+      <Item>touch sync_zeroto_pdf.py</Item>
+      <Item>touch my.py</Item>
+      <Item>subl pipeg</Item>
+      <Item>chmod a+x teams</Item>
+      <Item>touch drop_column_save.py</Item>
+      <Item>subl changepassword.sh</Item>
+      <Item>touch changepassword.sh</Item>
+      <Item>git clone https://github.com/PySCeS/PyscesToolbox.git</Item>
+      <Item>cd ..</Item>
+      <Item>cd .config</Item>
+      <Item>inkscape-convert eps 600</Item>
+      <Item>touch scratchpad</Item>
+      <Item>killall mate-panel</Item>
+      <Item>subl .</Item>
+      <Item>subl .gitignore</Item>
+      <Item>touch all_mapping.csv </Item>
+      <Item>touch species_mapping.csv</Item>
+      <Item>symlinks -c .</Item>
+      <Item>cd /usr/share</Item>
+      <Item>touch extra_scripts</Item>
+      <Item>touch Chap-2.tex</Item>
+      <Item>touch references.rst</Item>
+      <Item>touch .gitignore</Item>
+      <Item>cd /media/carl/MEDIA/Other/Deftones/White Pony</Item>
+      <Item>touch extras.py</Item>
+      <Item>meld</Item>
+      <Item>nemo .</Item>
+      <Item>nemo</Item>
+      <Item>rename 's/\(Digital-1920\) \(Zone-Empire\)//' *</Item>
+      <Item>cd /home/carl/virtual_envs/ipnb3/local/lib/python2.7/site-packages/psctb/utils/</Item>
+      <Item>cd "/run/user/1000/gvfs/mtp:host=%5Busb%3A002%2C012%5D/SD card"</Item>
+      <Item>cd Projects</Item>
+      <Item>Projects</Item>
+      <Item>house</Item>
+    </CommandLine>
+    <FileMask>
+      <Item>ipywidgets</Item>
+      <Item>*.*</Item>
+    </FileMask>
+    <SearchText/>
+    <SearchTextPath/>
+    <ReplaceText/>
+    <ReplaceTextPath/>
+    <CreateDirectories>
+      <Item>monitor_settings</Item>
+      <Item>Personal</Item>
+      <Item>Media</Item>
+      <Item>Backups</Item>
+      <Item>heuristic_approach</Item>
+      <Item>misc</Item>
+      <Item>06_functions_for_manipulating_data_in_postgresql</Item>
+      <Item>05_postgresql_summary_stats_and_window_functions</Item>
+      <Item>04_data_manipulation_in_sql</Item>
+      <Item>03_joining_data_in_sql</Item>
+      <Item>02_intermediate_sql</Item>
+      <Item>01. Introduction To Sql</Item>
+      <Item>sql_fundamentals</Item>
+      <Item>psx</Item>
+      <Item>roms</Item>
+      <Item>videos</Item>
+      <Item>temp_data</Item>
+      <Item>hypothesis testing</Item>
+      <Item>sampling</Item>
+      <Item>intermediate_regression</Item>
+    </CreateDirectories>
+    <RenameNameMask/>
+    <RenameExtMask/>
+    <SearchDirectories/>
+    <SearchExcludeFiles/>
+    <SearchExcludeDirectories/>
+  </History>
+</doublecmd>

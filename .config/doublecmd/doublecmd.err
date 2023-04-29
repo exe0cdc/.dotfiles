@@ -1,0 +1,388 @@
+--------------- 22-09-2014, 13:32:43 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17 Qiana -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FFEBC2D8FDA in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC2C783B in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC2D36F9 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC2D3D47 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC2D404C in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC2B7A89 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC29CB15 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC29D003 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC295C6B in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC2B7654 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007FFEBC28F0C5 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00000000007CCD94 in /usr/lib/doublecmd/doublecmd
+  $0000000000AC2284 in /usr/lib/doublecmd/doublecmd
+  $000000000083BBA7 in /usr/lib/doublecmd/doublecmd
+  $00000000009E00CB in /usr/lib/doublecmd/doublecmd
+  $000000000051EA84 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 06-01-2015, 11:38:45 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.1 Rebecca -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F6ACB332FDA in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6ACB32D6F9 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6ACB32DD47 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6ACB32E04C in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6ACB311A89 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6ACB2F6B15 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6ACB2F7003 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6ACB2EFC6B in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6ACB311654 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6ACB2E90C5 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00000000007CCD94 in /usr/lib/doublecmd/doublecmd
+  $0000000000AC2284 in /usr/lib/doublecmd/doublecmd
+  $000000000083BBA7 in /usr/lib/doublecmd/doublecmd
+  $00000000009E00CB in /usr/lib/doublecmd/doublecmd
+  $000000000051EA84 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 12-03-2015, 23:51:17 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.1 Rebecca -- GTK 2.24.23
+Unhandled exception: EListError: List index (151) out of bounds
+  Stack trace:
+  $0000000000517484 in /usr/lib/doublecmd/doublecmd
+
+--------------- 25-06-2015, 10:55:19 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.1 Rebecca -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA6228CEF6C in /usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+
+--------------- 25-06-2015, 10:55:20 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.1 Rebecca -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA6228CEF6C in /usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+
+--------------- 25-06-2015, 11:16:47 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.1 Rebecca -- GTK 2.24.23
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA4DCC03F6C in /usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0
+
+--------------- 13-07-2015, 18:29:32 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.2 Rafaela -- GTK 2.24.23
+Unhandled exception: EReadError: Stream read error
+  Stack trace:
+  $000000000051F382 in /usr/lib/doublecmd/doublecmd
+
+--------------- 17-09-2015, 21:43:09 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.2 Rafaela -- GTK 2.24.23
+Unhandled exception: EReadError: Stream read error
+  Stack trace:
+  $000000000051F382 in /usr/lib/doublecmd/doublecmd
+
+--------------- 21-10-2015, 09:19:48 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.2 Rafaela -- GTK 2.24.23
+Unhandled exception: EReadError: Stream read error
+  Stack trace:
+  $000000000051F382 in /usr/lib/doublecmd/doublecmd
+
+--------------- 21-10-2015, 14:05:43 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.2 Rafaela -- GTK 2.24.23
+Unhandled exception: EReadError: Stream read error
+  Stack trace:
+  $000000000051F382 in /usr/lib/doublecmd/doublecmd
+
+--------------- 03-12-2015, 12:23:16 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.2 Rafaela -- GTK 2.24.23
+Unhandled exception: EReadError: Stream read error
+  Stack trace:
+  $000000000051F382 in /usr/lib/doublecmd/doublecmd
+
+--------------- 07-01-2016, 09:41:50 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.3 Rosa -- GTK 2.24.23
+Unhandled exception: EListError: List index (115) out of bounds
+  Stack trace:
+  $0000000000517484 in /usr/lib/doublecmd/doublecmd
+
+--------------- 07-01-2016, 09:42:06 ---------------
+| DC v0.5.8 beta Rev. 5390 -- x86_64-Linux-gtk2
+| Linux Mint 17.3 Rosa -- GTK 2.24.23
+Unhandled exception: EListError: List index (115) out of bounds
+  Stack trace:
+  $0000000000517484 in /usr/lib/doublecmd/doublecmd
+
+--------------- 02-09-2016, 00:17:04 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.1 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F2233A86DF7 in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 30-11-2016, 15:06:17 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.1 LTS -- GTK 2.24.30
+Unhandled exception: EListError: List index (0) out of bounds
+  Stack trace:
+  $000000000048FAD0 in /usr/lib/doublecmd/doublecmd
+  $00000000005B2E2A line 282, column 5 of include/menuitem.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000432ECF in /usr/lib/doublecmd/doublecmd
+  $000000000063B255 line 3628, column 68 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000781511 line 139, column 3 of gtk2wsmenus.pp in /usr/lib/doublecmd/doublecmd
+
+--------------- 09-01-2017, 00:09:40 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.1 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FD7A2E04DF7 in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 27-02-2017, 16:19:03 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.2 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F222CEDEDF7 in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 13-07-2017, 16:04:16 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.2 LTS -- GTK 2.24.30
+Unhandled exception: EInvalidOperation: Cannot focus a disabled or invisible window
+  Stack trace:
+  $00000000004D6555 line 1837, column 7 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004D205B line 228, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055BAF8 line 5632, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000073AE3D line 9211, column 6 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $000000000072FE38 line 6135, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A30998 line 1658, column 3 of fileviews/ucolumnsfileview.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000568A57 line 2294, column 22 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000432ECF in /usr/lib/doublecmd/doublecmd
+  $000000000055B304 line 5383, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000072B8BA line 4703, column 31 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $000000000070D172 line 112, column 36 of lclmessageglue.pas in /usr/lib/doublecmd/doublecmd
+  $000000000063B255 line 3628, column 68 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000064A91E line 2238, column 15 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000649F28 line 1920, column 6 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $00007F94229BCAFC in /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+
+--------------- 05-10-2017, 13:59:09 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.3 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000A5E098 line 830, column 26 of fviewer.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004591F0 line 1822, column 5 of gtk2widgetset.inc in /usr/lib/doublecmd/doublecmd
+  $00007F1A3714004A in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+
+--------------- 22-05-2018, 23:17:48 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.4 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FD1693F3DF7 in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 16-06-2018, 11:34:02 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.4 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F0AA5695DF7 in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 04-07-2018, 14:33:30 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.4 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F6C23CB266C in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6C23D164F0 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6C23D12B22 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6C23D54A11 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+
+
+--------------- 04-07-2018, 14:33:53 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.4 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F6C23CB296B in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F6C5A6631FA in /lib64/ld-linux-x86-64.so.2
+
+--------------- 07-08-2018, 23:42:20 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.4 LTS -- GTK 2.24.30
+Unhandled exception: Exception: No files selected.
+  Stack trace:
+  $0000000000502618 line 2657, column 11 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00000000008C87FD line 2186, column 24 of umaincommands.pas in /usr/lib/doublecmd/doublecmd
+  $000000000088B904 line 226, column 7 of uformcommands.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007CF1FE line 1252, column 77 of uhotkeymanager.pas in /usr/lib/doublecmd/doublecmd
+  $000000000055BBDF line 5653, column 14 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055BEE6 line 5784, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055BE17 line 5765, column 14 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055EFC6 line 7122, column 38 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000432ECF in /usr/lib/doublecmd/doublecmd
+  $000000000055B304 line 5383, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000072B8BA line 4703, column 31 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $000000000070D172 line 112, column 36 of lclmessageglue.pas in /usr/lib/doublecmd/doublecmd
+  $000000000063B255 line 3628, column 68 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000638C65 line 1962, column 43 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000637CD7 line 2368, column 12 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006484CB line 885, column 77 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $00007FC47B843AEC in /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+
+--------------- 02-10-2018, 17:00:28 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4D722ABDF7 in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 03-10-2018, 10:18:03 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA24AEB1DF7 in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 30-10-2018, 14:46:00 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EInvalidOperation: Cannot focus a disabled or invisible window
+  Stack trace:
+  $00000000004D6555 line 1837, column 7 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004D205B line 228, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055BAF8 line 5632, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000073AE3D line 9211, column 6 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $000000000072FE38 line 6135, column 5 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000A30998 line 1658, column 3 of fileviews/ucolumnsfileview.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000568A57 line 2294, column 22 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000432ECF in /usr/lib/doublecmd/doublecmd
+  $000000000055B304 line 5383, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000072B8BA line 4703, column 31 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $000000000070D172 line 112, column 36 of lclmessageglue.pas in /usr/lib/doublecmd/doublecmd
+  $000000000063B255 line 3628, column 68 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $000000000064A91E line 2238, column 15 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000649F28 line 1920, column 6 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $00007FA196A73AEC in /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+
+--------------- 26-11-2018, 11:14:42 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F56ECB5ADF7 in /lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 28-01-2019, 15:34:03 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F5AF2157814 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+  $00007F5AF214FA11 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+
+
+--------------- 28-01-2019, 15:34:06 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000000000 in 
+  $00007F5AF214FA11 in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+
+
+--------------- 28-01-2019, 15:34:14 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $000000000042151E in /usr/lib/doublecmd/doublecmd
+  $00000000004D1AC7 line 149, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000501891 line 2506, column 1 of fmain.pas in /usr/lib/doublecmd/doublecmd
+
+--------------- 14-02-2019, 08:10:19 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $000000000042151E in /usr/lib/doublecmd/doublecmd
+  $00000000004D1AC7 line 149, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000501891 line 2506, column 1 of fmain.pas in /usr/lib/doublecmd/doublecmd
+
+--------------- 14-02-2019, 08:10:25 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000500562 line 2082, column 3 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004DEBC6 line 389, column 3 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004E1167 line 1261, column 10 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004E168D line 1395, column 9 of include/application.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000627F78 line 54, column 6 of include/interfacebase.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004E1634 line 1383, column 21 of include/application.inc in /usr/lib/doublecmd/doublecmd
+
+--------------- 14-02-2019, 08:10:27 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.5 LTS -- GTK 2.24.30
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000505ABF line 3489, column 3 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $000000000055BBDF line 5653, column 14 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055BEE6 line 5784, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055BE17 line 5765, column 14 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055EFC6 line 7122, column 38 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000432ECF in /usr/lib/doublecmd/doublecmd
+  $000000000055B304 line 5383, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000070D172 line 112, column 36 of lclmessageglue.pas in /usr/lib/doublecmd/doublecmd
+  $000000000063B255 line 3628, column 68 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000638C65 line 1962, column 43 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000637CD7 line 2368, column 12 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006484CB line 885, column 77 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $00007F725EE5BAEC in /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+
+--------------- 30-07-2019, 20:44:56 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-gtk2
+| Ubuntu 16.04.6 LTS -- GTK 2.24.30
+Unhandled exception: Exception: No files selected.
+  Stack trace:
+  $0000000000502618 line 2657, column 11 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00000000008C87FD line 2186, column 24 of umaincommands.pas in /usr/lib/doublecmd/doublecmd
+  $000000000088B904 line 226, column 7 of uformcommands.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007CF1FE line 1252, column 77 of uhotkeymanager.pas in /usr/lib/doublecmd/doublecmd
+  $000000000055BBDF line 5653, column 14 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055BEE6 line 5784, column 7 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055BE17 line 5765, column 14 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000055EFC6 line 7122, column 38 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000432ECF in /usr/lib/doublecmd/doublecmd
+  $000000000055B304 line 5383, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000072B8BA line 4703, column 31 of grids.pas in /usr/lib/doublecmd/doublecmd
+  $000000000070D172 line 112, column 36 of lclmessageglue.pas in /usr/lib/doublecmd/doublecmd
+  $000000000063B255 line 3628, column 68 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000638C65 line 1962, column 43 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000637CD7 line 2368, column 12 of gtk2proc.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006484CB line 885, column 77 of gtk2callback.inc in /usr/lib/doublecmd/doublecmd
+  $00007FDDCAEEEAEC in /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0
+
+--------------- 03-08-2022, 21:29:22 ---------------
+| DC v1.0.6 beta Rev. 120 -- x86_64-Linux-gtk2
+| Ubuntu 20.04.4 LTS -- GTK 2.24.32 | PID 22161
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F96E63EC2EE in /usr/lib/doublecmd/plugins/wcx/zip/zip.wcx
+
+
+--------------- 16-11-2022, 19:53:05 ---------------
+| DC v1.0.8 Rev. 191 -- x86_64-Linux-gtk2
+| Ubuntu 20.04.5 LTS -- GTK 2.24.32 | PID 9194
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FC9AF2FE2A4 in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
+

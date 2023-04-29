@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd DCVersion="1.0.10" ConfigVersion="13">
+  <Configuration Save="True" TreeType="0" SortOrder="0">
+    <FolderTabs Save="True"/>
+  </Configuration>
+  <Colors>
+    <FileFilters>
+      <Filter>
+        <Name>Pascal sources</Name>
+        <FileMasks>*.pas;*.pp</FileMasks>
+        <Color>32768</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Pascal binaries</Name>
+        <FileMasks>*.ppu;*.o;*.dcu</FileMasks>
+        <Color>16711680</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Specified Executables</Name>
+        <FileMasks>*</FileMasks>
+        <Color>55758</Color>
+        <Attributes>-rwxrwxr*x</Attributes>
+      </Filter>
+      <Filter>
+        <Name>Executables</Name>
+        <FileMasks>*</FileMasks>
+        <Color>16326347</Color>
+        <Attributes>-*x*</Attributes>
+      </Filter>
+    </FileFilters>
+    <Foreground>-2147483640</Foreground>
+    <Background>-2147483643</Background>
+    <Background2>-2147483643</Background2>
+    <Mark>255</Mark>
+    <Cursor>-2147483635</Cursor>
+    <CursorText>-2147483634</CursorText>
+    <UseInvertedSelection>False</UseInvertedSelection>
+    <InactivePanelBrightness>74</InactivePanelBrightness>
+    <UseFrameCursor>False</UseFrameCursor>
+    <FreeSpaceIndicator>
+      <ForeColor>0</ForeColor>
+      <BackColor>16777215</BackColor>
+      <UseGradient>True</UseGradient>
+    </FreeSpaceIndicator>
+    <UseCursorBorder>False</UseCursorBorder>
+    <CursorBorderColor>-2147483635</CursorBorderColor>
+    <InactiveCursor>-2147483645</InactiveCursor>
+    <InactiveMark>128</InactiveMark>
+    <UseInactiveSelColor>False</UseInactiveSelColor>
+    <AllowOverColor>True</AllowOverColor>
+    <gBorderFrameWidth>1</gBorderFrameWidth>
+    <LogWindow>
+      <Info>8388608</Info>
+      <Error>255</Error>
+      <Success>32768</Success>
+    </LogWindow>
+    <PathLabel>
+      <ActiveColor>-2147483635</ActiveColor>
+      <ActiveFontColor>-2147483634</ActiveFontColor>
+      <InactiveColor>-2147483633</InactiveColor>
+      <InactiveFontColor>-2147483630</InactiveFontColor>
+    </PathLabel>
+  </Colors>
+  <Plugins>
+    <DsxPlugins/>
+    <WcxPlugins>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zip</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>735</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzma</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>1</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>bz2</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tbz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>gz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tgz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cpio</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/cpio/cpio.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>deb</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/deb/deb.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rpm</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/rpm/rpm.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/unrar/unrar.wcx</Path>
+        <Flags>607</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tlz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>txz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zipx</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>jar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>990</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zst</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+    </WcxPlugins>
+    <WdxPlugins>
+      <WdxPlugin>
+        <Name>rpm_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/rpm_wdx/rpm_wdx.wdx</Path>
+        <DetectString>EXT="RPM"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>deb_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/deb_wdx/deb_wdx.wdx</Path>
+        <DetectString>EXT="DEB"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>audioinfo</Name>
+        <Path>/home/carl/Applications/doublecmd/plugins/wdx/audioinfo/audioinfo.wdx</Path>
+        <DetectString>(EXT="MP3") | (EXT="MP2") | (EXT="MP1") | (EXT="OGG") | (EXT="WMA") | (EXT="WAV") | (EXT="VQF") | (EXT="AAC") | (EXT="APE") | (EXT="MPC") | (EXT="FLAC") | (EXT="CDA") | (EXT="TTA") | (EXT="AC3") | (EXT="DTS") | (EXT="WV") | (EXT="WVC") | (EXT="OFR") | (EXT="OFS") | (EXT="M4A") | (EXT="MP4")</DetectString>
+      </WdxPlugin>
+    </WdxPlugins>
+    <WfxPlugins>
+      <WfxPlugin Enabled="True">
+        <Name>FTP</Name>
+        <Path>%commander_path%/plugins/wfx/ftp/ftp.wfx</Path>
+      </WfxPlugin>
+      <WfxPlugin Enabled="True">
+        <Name>Windows Network</Name>
+        <Path>%commander_path%/plugins/wfx/samba/samba.wfx</Path>
+      </WfxPlugin>
+    </WfxPlugins>
+    <WlxPlugins>
+      <WlxPlugin Enabled="True">
+        <Name>wlxMplayer</Name>
+        <Path>%commander_path%/plugins/wlx/wlxmplayer/wlxmplayer.wlx</Path>
+        <DetectString>(EXT="MPG")|(EXT="AVI")|(EXT="MPEG")|(EXT="FLV")</DetectString>
+      </WlxPlugin>
+    </WlxPlugins>
+    <TweakPluginWidth0>0</TweakPluginWidth0>
+    <TweakPluginHeight0>0</TweakPluginHeight0>
+    <TweakPluginWidth1>666</TweakPluginWidth1>
+    <TweakPluginHeight1>517</TweakPluginHeight1>
+    <TweakPluginWidth2>0</TweakPluginWidth2>
+    <TweakPluginHeight2>0</TweakPluginHeight2>
+    <TweakPluginWidth3>0</TweakPluginWidth3>
+    <TweakPluginHeight3>0</TweakPluginHeight3>
+    <TweakPluginWidth4>0</TweakPluginWidth4>
+    <TweakPluginHeight4>0</TweakPluginHeight4>
+    <AutoTweak>False</AutoTweak>
+    <WCXConfigViewMode>0</WCXConfigViewMode>
+    <PluginFilenameStyle>0</PluginFilenameStyle>
+    <PluginPathToBeRelativeTo>%COMMANDER_PATH%</PluginPathToBeRelativeTo>
+  </Plugins>
+  <Toolbars>
+    <MainToolbar>
+      <Row>
+        <Command>
+          <ID>{A2C3CF95-9185-42A0-8B76-56869A6839A0}</ID>
+          <Icon>view-refresh</Icon>
+          <Command>cm_Refresh</Command>
+        </Command>
+        <Command>
+          <ID>{8309B837-B31A-454B-9F49-B5126B5D5862}</ID>
+          <Icon>list-add</Icon>
+          <Command>cm_MarkPlus</Command>
+        </Command>
+        <Command>
+          <ID>{1A8E6324-908C-4F96-9C5F-DC60D694EA30}</ID>
+          <Icon>utilities-terminal</Icon>
+          <Command>cm_RunTerm</Command>
+        </Command>
+        <Command>
+          <ID>{F1018E21-9F98-41A4-B17E-6350E2E91198}</ID>
+          <Icon>list-remove</Icon>
+          <Command>cm_MarkMinus</Command>
+        </Command>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
+        <Command>
+          <ID>{069954D8-06B0-4377-9482-32D28218E29D}</ID>
+          <Icon>package-x-generic</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
+        <Command>
+          <ID>{867AA402-2CE5-4A23-A017-61CDB857053C}</ID>
+          <Icon>system-search</Icon>
+          <Command>cm_Search</Command>
+        </Command>
+        <Command>
+          <ID>{36E631A1-28D8-40A3-90E0-987AD2CBF17A}</ID>
+          <Icon>go-previous</Icon>
+          <Command>cm_ViewHistoryPrev</Command>
+        </Command>
+        <Command>
+          <ID>{D51D2B72-6EC5-47D6-9FE1-E4F320C8F124}</ID>
+          <Icon>go-next</Icon>
+          <Command>cm_ViewHistoryNext</Command>
+        </Command>
+        <Program>
+          <ID>{7531F7F5-1599-4EA0-8A74-124A23D00EEA}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>0 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{0D1F1A16-EB59-4C97-A7CE-BD5B856B711A}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>1 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{C71D31EA-B474-4243-BF8C-02A5B52E0A99}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>2 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{79DB2BDA-66AB-4CC2-B722-D73F8B303644}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>3 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{DD8904E9-32B7-4C99-95EA-36553AF965FF}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>4 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{6DCAA424-C229-4FC1-9835-BB1FE55F52BA}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>5 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{94AE172D-A100-4CE1-947E-F39207FA47F4}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>6 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{DBA2A442-90F6-47B6-B6C9-41566C886D96}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>7 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{0945BFC0-38C5-471E-B28D-E2F2D08775DB}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>8 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{A4059289-EC6C-4B6F-97A6-2B74EEE9D43C}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>9 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{8546AA31-DFB3-4918-A63D-50E252E5C1D5}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>10 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Program>
+          <ID>{0729D88A-2E6A-438D-8DA9-848A14AE3DF4}</ID>
+          <Icon>/home/carl/bin/i3_exec_workspace</Icon>
+          <Hint>Move to Workspace 1</Hint>
+          <Command>/home/carl/bin/i3_exec_workspace</Command>
+          <Params>11 %p</Params>
+          <StartPath>/home/carl/bin/</StartPath>
+        </Program>
+        <Command>
+          <ID>{2493378B-B6CF-4829-A937-0C6B46066370}</ID>
+          <Icon>cm_panelssplitterperpos</Icon>
+          <Command>cm_PanelsSplitterPerPos</Command>
+          <Param>splitpct=0</Param>
+        </Command>
+        <Command>
+          <ID>{F1E71F5D-8462-4322-B891-94C9558DD581}</ID>
+          <Icon>cm_panelssplitterperpos</Icon>
+          <Command>cm_PanelsSplitterPerPos</Command>
+          <Param>splitpct=100</Param>
+        </Command>
+        <Command>
+          <ID>{355ED069-3249-44C6-B1EF-2F1C6D4E89B5}</ID>
+          <Icon>cm_panelssplitterperpos</Icon>
+          <Command>cm_PanelsSplitterPerPos</Command>
+          <Param>splitpct=50</Param>
+        </Command>
+      </Row>
+    </MainToolbar>
+    <MiddleToolbar>
+      <Row>
+        <Command>
+          <ID>{7B863957-E004-40E7-A756-FE8FF169EEF6}</ID>
+          <Icon>cm_view</Icon>
+          <Command>cm_View</Command>
+        </Command>
+        <Command>
+          <ID>{C0F327E8-A267-4A5A-B083-D70C4B535B30}</ID>
+          <Icon>cm_edit</Icon>
+          <Command>cm_Edit</Command>
+        </Command>
+        <Command>
+          <ID>{ADE797B9-08BD-47A3-AAA7-54D1D0D86071}</ID>
+          <Icon>cm_copy</Icon>
+          <Command>cm_Copy</Command>
+        </Command>
+        <Command>
+          <ID>{EAE3B3E6-8248-4B15-AECC-32103CF3C4AA}</ID>
+          <Icon>cm_rename</Icon>
+          <Command>cm_Rename</Command>
+        </Command>
+        <Separator>
+          <Style>True</Style>
+        </Separator>
+        <Command>
+          <ID>{D812E7FF-E822-4532-BD73-5D99BD6F4263}</ID>
+          <Icon>cm_packfiles</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Command>
+          <ID>{4FEA2690-E497-43E1-8A75-07A9CAB89E2C}</ID>
+          <Icon>cm_makedir</Icon>
+          <Command>cm_MakeDir</Command>
+        </Command>
+      </Row>
+    </MiddleToolbar>
+  </Toolbars>
+  <Tabs>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Expansion">/media/carl/</Path>
+                  <Path Filename="Media">/media/carl/Expansion/</Path>
+                  <Path Filename="unsorted">/media/carl/Expansion/Media/</Path>
+                  <Path Filename="movies">/media/carl/Expansion/Media/unsorted/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/</Path>
+                  <Path Filename="unsorted">/media/carl/Expansion/Media/</Path>
+                  <Path Filename="Media">/media/carl/Expansion/</Path>
+                  <Path Filename="6359054E0780D94B">/media/carl/</Path>
+                  <Path Filename="Dog Day Afternoon 1975.True.1080p.BluRay.x264 . NVEE">/media/carl/6359054E0780D94B/</Path>
+                  <Path Filename="6359054E0780D94B">/media/carl/</Path>
+                  <Path Filename="Licorice.Pizza.2021.1080p.WEBRip.DD5.1.x264-NOGRP">/media/carl/6359054E0780D94B/</Path>
+                  <Path Filename="Expansion">/media/carl/</Path>
+                  <Path Filename="Media">/media/carl/Expansion/</Path>
+                  <Path Filename="unsorted">/media/carl/Expansion/Media/</Path>
+                  <Path Filename="movies">/media/carl/Expansion/Media/unsorted/</Path>
+                  <Path Filename="The Wolf House (2018) [1080p] [WEBRip] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/movies/The Wolf House (2018) [1080p] [WEBRip] [YTS.MX]/</Path>
+                  <Path Filename="appleseed">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="Appleseed [1988].mkv">/media/carl/Expansion/Media/unsorted/movies/appleseed/</Path>
+                  <Path Filename="Midsommar (2019) [2160p] [4K] [BluRay] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="Midsommar.2019.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv">/media/carl/Expansion/Media/unsorted/movies/Midsommar (2019) [2160p] [4K] [BluRay] [5.1] [YTS.MX]/</Path>
+                  <Path Filename="Memories (1995) [1080p] [BluRay] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="Memories.1995.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4">/media/carl/Expansion/Media/unsorted/movies/Memories (1995) [1080p] [BluRay] [5.1] [YTS.MX]/</Path>
+                  <Path Filename="The Witches (2020) [1080p] [WEBRip] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="The.Witches.2020.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4">/media/carl/Expansion/Media/unsorted/movies/The Witches (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/</Path>
+                  <Path Filename="The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG.mp4">/media/carl/Expansion/Media/unsorted/movies/The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG/</Path>
+                  <Path Filename="Color.Out.of.Space.2019.1080p.BluRay.x265-RARBG">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/movies/Color.Out.of.Space.2019.1080p.BluRay.x265-RARBG/</Path>
+                  <Path Filename="The Suicide Squad (2021) [1080p] [WEBRip] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="..">/media/carl/</Path>
+                  <Path Filename="carl">/media/</Path>
+                  <Path Filename="..">/media/carl/</Path>
+                  <Path Filename="Downloads">/home/carl/</Path>
+                  <Path Filename="..">/home/carl/Downloads/</Path>
+                  <Path Filename="bin">/home/carl/</Path>
+                  <Path Filename="base16-mate-terminal">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/bin/base16-mate-terminal/</Path>
+                  <Path Filename="logs">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/bin/logs/</Path>
+                  <Path Filename="jabref">/home/carl/bin/</Path>
+                  <Path Filename="bin">/home/carl/</Path>
+                  <Path Filename="logs">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/bin/logs/</Path>
+                  <Path Filename="sigstr">/home/carl/bin/</Path>
+                  <Path Filename="bin">/home/carl/</Path>
+                  <Path Filename="base16-mate-terminal">/home/carl/bin/</Path>
+                  <Path Filename="">/home/carl/bin/base16-mate-terminal/</Path>
+                  <Path Filename="..">/home/carl/bin/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Media">/media/carl/Expansion/</Path>
+                  <Path Filename="unsorted">/media/carl/Expansion/Media/</Path>
+                  <Path Filename="movies">/media/carl/Expansion/Media/unsorted/</Path>
+                  <Path Filename="The Wolf House (2018) [1080p] [WEBRip] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/movies/The Wolf House (2018) [1080p] [WEBRip] [YTS.MX]/</Path>
+                  <Path Filename="appleseed">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="Appleseed [1988].mkv">/media/carl/Expansion/Media/unsorted/movies/appleseed/</Path>
+                  <Path Filename="Midsommar (2019) [2160p] [4K] [BluRay] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="Midsommar.2019.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv">/media/carl/Expansion/Media/unsorted/movies/Midsommar (2019) [2160p] [4K] [BluRay] [5.1] [YTS.MX]/</Path>
+                  <Path Filename="Memories (1995) [1080p] [BluRay] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="Memories.1995.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4">/media/carl/Expansion/Media/unsorted/movies/Memories (1995) [1080p] [BluRay] [5.1] [YTS.MX]/</Path>
+                  <Path Filename="The Witches (2020) [1080p] [WEBRip] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="The.Witches.2020.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4">/media/carl/Expansion/Media/unsorted/movies/The Witches (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/</Path>
+                  <Path Filename="The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG.mp4">/media/carl/Expansion/Media/unsorted/movies/The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG/</Path>
+                  <Path Filename="Color.Out.of.Space.2019.1080p.BluRay.x265-RARBG">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/movies/Color.Out.of.Space.2019.1080p.BluRay.x265-RARBG/</Path>
+                  <Path Filename="The Suicide Squad (2021) [1080p] [WEBRip] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="..">/media/carl/</Path>
+                  <Path Filename="carl">/media/</Path>
+                  <Path Filename="..">/media/carl/</Path>
+                  <Path Filename="Downloads">/home/carl/</Path>
+                  <Path Filename="..">/home/carl/Downloads/</Path>
+                  <Path Filename="bin">/home/carl/</Path>
+                  <Path Filename="base16-mate-terminal">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/bin/base16-mate-terminal/</Path>
+                  <Path Filename="logs">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/bin/logs/</Path>
+                  <Path Filename="jabref">/home/carl/bin/</Path>
+                  <Path Filename="bin">/home/carl/</Path>
+                  <Path Filename="monitor_settings">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/bin/monitor_settings/</Path>
+                  <Path Filename="..">/home/carl/bin/</Path>
+                  <Path Filename="base16-mate-terminal">/home/carl/</Path>
+                  <Path Filename="base16-atelierplateau.light.sh">/home/carl/base16-mate-terminal/</Path>
+                  <Path Filename=".ssh">/home/carl/</Path>
+                  <Path Filename="id_rsa">/home/carl/.ssh/</Path>
+                  <Path Filename=".oh-my-zsh">/home/carl/</Path>
+                  <Path Filename="">/home/carl/.oh-my-zsh/</Path>
+                  <Path Filename="base16-chalk.light.sh">/home/carl/bin/base16-mate-terminal/</Path>
+                  <Path Filename="base16-mate-terminal">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/</Path>
+                  <Path Filename="carl">/home/</Path>
+                  <Path Filename=".config">/home/carl/</Path>
+                  <Path Filename="i3">/home/carl/.config/</Path>
+                  <Path Filename="..">/home/carl/.config/i3/</Path>
+                  <Path Filename="gtk-3.0">/home/carl/.config/</Path>
+                  <Path Filename=".dotfiles">/home/carl/</Path>
+                  <Path Filename="HEAD">/home/carl/.dotfiles/</Path>
+                  <Path Filename=".dotfiles">/home/carl/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+    <Options>49937</Options>
+    <CharacterLimit>32</CharacterLimit>
+    <Position>0</Position>
+    <ActionOnDoubleClick>1</ActionOnDoubleClick>
+  </Tabs>
+  <MainWindow>
+    <Position Save="True">
+      <Maximized>False</Maximized>
+      <Splitter>50</Splitter>
+      <Left>0</Left>
+      <Top>24</Top>
+      <Width>3840</Width>
+      <Height>2107</Height>
+      <PixelsPerInch>144</PixelsPerInch>
+    </Position>
+  </MainWindow>
+  <Language>
+    <POFileName>doublecmd.en.po</POFileName>
+  </Language>
+  <Behaviours>
+    <GoToRoot>False</GoToRoot>
+    <ShowCurDirTitleBar>False</ShowCurDirTitleBar>
+    <ActiveRight>False</ActiveRight>
+    <RunInTerminalStayOpenCmd>mate-terminal</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
+    <RunInTerminalCloseCmd>mate-terminal</RunInTerminalCloseCmd>
+    <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
+    <JustRunTerminal>mate-terminal</JustRunTerminal>
+    <JustRunTermParams/>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
+    <LynxLike>True</LynxLike>
+    <FileSizeFormat>0</FileSizeFormat>
+    <OperationSizeFormat>0</OperationSizeFormat>
+    <HeaderSizeFormat>0</HeaderSizeFormat>
+    <FooterSizeFormat>0</FooterSizeFormat>
+    <FileSizeDigits>1</FileSizeDigits>
+    <HeaderDigits>1</HeaderDigits>
+    <FooterDigits>1</FooterDigits>
+    <OperationSizeDigits>1</OperationSizeDigits>
+    <PersonalizedByte>B</PersonalizedByte>
+    <PersonalizedKilo>KB</PersonalizedKilo>
+    <PersonalizedMega>MB</PersonalizedMega>
+    <PersonalizedGiga>GB</PersonalizedGiga>
+    <PersonalizedTera>TB</PersonalizedTera>
+    <MinimizeToTray>False</MinimizeToTray>
+    <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
+    <Mouse>
+      <Selection Enabled="True">
+        <Button>0</Button>
+        <IconClick>0</IconClick>
+      </Selection>
+      <SingleClickStart>0</SingleClickStart>
+      <ScrollMode>1</ScrollMode>
+      <WheelScrollLines>3</WheelScrollLines>
+    </Mouse>
+    <AutoFillColumns>False</AutoFillColumns>
+    <AutoSizeColumn>1</AutoSizeColumn>
+    <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
+    <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
+    <DateTimeFormat>dd/mm/yy</DateTimeFormat>
+    <CutTextToColumnWidth>True</CutTextToColumnWidth>
+    <ExtendCellWidth>False</ExtendCellWidth>
+    <ShowSystemFiles>True</ShowSystemFiles>
+    <ListFilesInThread>True</ListFilesInThread>
+    <LoadIconsSeparately>True</LoadIconsSeparately>
+    <DelayLoadingTabs>True</DelayLoadingTabs>
+    <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
+    <DriveBlackList/>
+    <DriveBlackListUnmounted>False</DriveBlackListUnmounted>
+  </Behaviours>
+  <Tools>
+    <Viewer Enabled="False">
+      <Path>gloobus-preview</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Viewer>
+    <Editor Enabled="True">
+      <Path>subl</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Editor>
+    <Differ Enabled="True">
+      <Path>meld</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+      <FramePosAfterComp>0</FramePosAfterComp>
+    </Differ>
+  </Tools>
+  <Fonts>
+    <Main>
+      <Name>Hack</Name>
+      <Size>13</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Main>
+    <Editor>
+      <Name>Hack</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Editor>
+    <Viewer>
+      <Name>Hack</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Viewer>
+    <Log>
+      <Name>Hack</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Log>
+    <ViewerBook>
+      <Name>Hack</Name>
+      <Size>10</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </ViewerBook>
+    <Console>
+      <Name>Hack</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Console>
+    <OptionsTree>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsTree>
+    <OptionsMain>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsMain>
+    <SearchResults>
+      <Name>default</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </SearchResults>
+    <PathEdit>
+      <Name>Hack</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </PathEdit>
+    <FunctionButtons>
+      <Name>default</Name>
+      <Size>8</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </FunctionButtons>
+    <TreeViewMenu>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </TreeViewMenu>
+  </Fonts>
+  <ToolTips>
+    <ShowToolTipMode>True</ShowToolTipMode>
+    <CustomFields/>
+    <ActualToolTipMode>0</ActualToolTipMode>
+    <ToolTipHideTimeOut>0</ToolTipHideTimeOut>
+  </ToolTips>
+  <Layout>
+    <MainMenu>True</MainMenu>
+    <ButtonBar Enabled="True">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>22</ButtonHeight>
+      <IconSize>18</IconSize>
+      <ShowCaptions>False</ShowCaptions>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+      <FilenameStyle>0</FilenameStyle>
+      <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
+      <PathModifierElements>0</PathModifierElements>
+    </ButtonBar>
+    <MiddleBar Enabled="False">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>24</ButtonHeight>
+      <IconSize>16</IconSize>
+      <ShowCaptions>False</ShowCaptions>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+    </MiddleBar>
+    <DriveBar1>False</DriveBar1>
+    <DriveBar2>True</DriveBar2>
+    <DriveBarFlat>True</DriveBarFlat>
+    <DrivesListButton Enabled="True">
+      <ShowLabel>True</ShowLabel>
+      <ShowFileSystem>True</ShowFileSystem>
+      <ShowFreeSpace>True</ShowFreeSpace>
+    </DrivesListButton>
+    <SeparateTree>False</SeparateTree>
+    <DirectoryTabs>True</DirectoryTabs>
+    <CurrentDirectory>True</CurrentDirectory>
+    <TabHeader>True</TabHeader>
+    <StatusBar>True</StatusBar>
+    <CmdLine>True</CmdLine>
+    <LogWindow>False</LogWindow>
+    <TermWindow>False</TermWindow>
+    <KeyButtons>True</KeyButtons>
+    <InterfaceFlat>True</InterfaceFlat>
+    <DriveFreeSpace>True</DriveFreeSpace>
+    <DriveIndicator>False</DriveIndicator>
+    <ProgressInMenuBar>True</ProgressInMenuBar>
+    <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
+    <HorizontalFilePanels>False</HorizontalFilePanels>
+    <ShortFormatDriveInfo>True</ShortFormatDriveInfo>
+    <UppercaseDriveLetter>False</UppercaseDriveLetter>
+    <ShowColonAfterDrive>False</ShowColonAfterDrive>
+  </Layout>
+  <FilesViews>
+    <Sorting>
+      <CaseSensitivity>0</CaseSensitivity>
+      <NaturalSorting>False</NaturalSorting>
+      <SortFolderMode>1</SortFolderMode>
+      <NewFilesPosition>2</NewFilesPosition>
+      <UpdatedFilesPosition>2</UpdatedFilesPosition>
+      <SpecialSorting>False</SpecialSorting>
+    </Sorting>
+    <ColumnsView>
+      <AutoSaveWidth>True</AutoSaveWidth>
+      <TitleStyle>1</TitleStyle>
+    </ColumnsView>
+    <BriefView>
+      <FileExtAligned>False</FileExtAligned>
+      <Columns>
+        <FixedWidth>100</FixedWidth>
+        <FixedCount>2</FixedCount>
+        <AutoSize>2</AutoSize>
+      </Columns>
+    </BriefView>
+    <ExtraLineSpan>2</ExtraLineSpan>
+    <FolderPrefix>[</FolderPrefix>
+    <FolderPostfix>]</FolderPostfix>
+  </FilesViews>
+  <Keyboard>
+    <Typing>
+      <Actions>
+        <NoModifier>3</NoModifier>
+        <Alt>0</Alt>
+        <CtrlAlt>0</CtrlAlt>
+      </Actions>
+    </Typing>
+  </Keyboard>
+  <FileOperations>
+    <BufferSize>524288</BufferSize>
+    <UseMmapInSearch>False</UseMmapInSearch>
+    <PartialNameSearch>True</PartialNameSearch>
+    <WipePassNumber>1</WipePassNumber>
+    <DropReadOnlyFlag>False</DropReadOnlyFlag>
+    <ProcessComments>True</ProcessComments>
+    <RenameSelOnlyName>True</RenameSelOnlyName>
+    <ShowCopyTabSelectPanel>False</ShowCopyTabSelectPanel>
+    <UseTrash>True</UseTrash>
+    <SkipFileOpError>False</SkipFileOpError>
+    <ShowDialogOnDragDrop>True</ShowDialogOnDragDrop>
+    <OverwriteFolder>False</OverwriteFolder>
+    <ProgressKind>0</ProgressKind>
+    <Confirmations>15</Confirmations>
+    <Options>
+      <Symlink>0</Symlink>
+      <CorrectLinks>False</CorrectLinks>
+      <FileExists>0</FileExists>
+      <DirectoryExists>0</DirectoryExists>
+      <SetPropertyError>2</SetPropertyError>
+      <ReserveSpace>False</ReserveSpace>
+      <CheckFreeSpace>True</CheckFreeSpace>
+      <CopyAttributes>True</CopyAttributes>
+      <CopyTime>True</CopyTime>
+      <CopyOwnership>True</CopyOwnership>
+      <CopyPermissions>False</CopyPermissions>
+      <Verify>False</Verify>
+      <ExcludeEmptyTemplateDirectories>True</ExcludeEmptyTemplateDirectories>
+      <CopyOnWrite>2</CopyOnWrite>
+      <CopyXattributes>True</CopyXattributes>
+    </Options>
+    <HashBufferSize>8388608</HashBufferSize>
+    <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
+    <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
+    <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
+    <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
+    <DragAndDropTextSimpletextDesireLevel>3</DragAndDropTextSimpletextDesireLevel>
+    <DragAndDropAskFormatEachTime>False</DragAndDropAskFormatEachTime>
+    <DragAndDropTextAutoFilename>False</DragAndDropTextAutoFilename>
+    <DragAndDropSaveUnicodeTextInUFT8>True</DragAndDropSaveUnicodeTextInUFT8>
+    <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
+    <SearchDefaultTemplate/>
+    <InitiallyClearFileMask>True</InitiallyClearFileMask>
+    <NewSearchClearFiltersAction>0</NewSearchClearFiltersAction>
+    <ShowMenuBarInFindFiles>True</ShowMenuBarInFindFiles>
+    <AutoExtractOpenMask/>
+    <Extract>
+      <Overwrite>False</Overwrite>
+    </Extract>
+    <LongNameAlert>True</LongNameAlert>
+    <MultiRename>
+      <MulRenShowMenuBarOnTop>True</MulRenShowMenuBarOnTop>
+      <MulRenInvalidCharReplacement>.</MulRenInvalidCharReplacement>
+      <MulRenLaunchBehavor>0</MulRenLaunchBehavor>
+      <MulRenExitModifiedPreset>0</MulRenExitModifiedPreset>
+      <MulRenSaveRenamingLog>0</MulRenSaveRenamingLog>
+      <MulRenLogFilename>%DC_CONFIG_PATH%/multirename.log</MulRenLogFilename>
+      <MultRenDailyIndividualDirLog>True</MultRenDailyIndividualDirLog>
+      <MulRenFilenameWithFullPathInLog>False</MulRenFilenameWithFullPathInLog>
+      <MulRenPathRangeSeparator>- </MulRenPathRangeSeparator>
+    </MultiRename>
+  </FileOperations>
+  <Log Enabled="True" LogFileWithDateInName="False" Count="0">
+    <FileName>/home/carl/.config/doublecmd/doublecmd.log</FileName>
+    <Options>255</Options>
+  </Log>
+  <History>
+    <SearchReplaceHistory Save="True"/>
+    <DirHistory Save="True"/>
+    <CmdLineHistory Save="True"/>
+    <FileMaskHistory Save="True"/>
+  </History>
+  <QuickSearch>
+    <MatchBeginning>False</MatchBeginning>
+    <MatchEnding>False</MatchEnding>
+    <Case>1</Case>
+    <Items>2</Items>
+  </QuickSearch>
+  <QuickFilter>
+    <AutoHide>True</AutoHide>
+    <SaveSessionModifications>False</SaveSessionModifications>
+  </QuickFilter>
+  <Miscellaneous>
+    <GridVertLine>False</GridVertLine>
+    <GridHorzLine>False</GridHorzLine>
+    <ShowWarningMessages>True</ShowWarningMessages>
+    <SpaceMovesDown>False</SpaceMovesDown>
+    <DirBrackets>True</DirBrackets>
+    <InplaceRename>False</InplaceRename>
+    <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
+    <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
+    <ShowPathInPopup>False</ShowPathInPopup>
+    <ShowOnlyValidEnv>True</ShowOnlyValidEnv>
+    <WhereToAddNewHotDir>2</WhereToAddNewHotDir>
+    <DblClickToParent>False</DblClickToParent>
+    <InplaceRenameButton>False</InplaceRenameButton>
+    <FilenameStyle>0</FilenameStyle>
+    <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
+    <PathModifierElements>0</PathModifierElements>
+    <DefaultTextEncoding>none</DefaultTextEncoding>
+  </Miscellaneous>
+  <Thumbnails Save="True">
+    <Width>128</Width>
+    <Height>128</Height>
+  </Thumbnails>
+  <AutoRefresh>
+    <Options>3</Options>
+    <ExcludeDirs/>
+    <Mode>0</Mode>
+  </AutoRefresh>
+  <Icons>
+    <ShowMode>3</ShowMode>
+    <ShowOverlays>False</ShowOverlays>
+    <Size>16</Size>
+    <Exclude>False</Exclude>
+    <ExcludeDirs/>
+    <ShowInMenus Enabled="False">
+      <Size>16</Size>
+    </ShowInMenus>
+    <Theme>dctheme</Theme>
+    <ShowHiddenDimmed>False</ShowHiddenDimmed>
+    <DiskSize>16</DiskSize>
+    <DiskAlpha>50</DiskAlpha>
+    <CustomIcons>0</CustomIcons>
+    <PixelsPerInch>144</PixelsPerInch>
+    <ShowButtonGlyphs>0</ShowButtonGlyphs>
+    <ToolSize>24</ToolSize>
+  </Icons>
+  <IgnoreList Enabled="False">
+    <IgnoreListFile>/home/carl/.config/doublecmd/ignorelist.txt</IgnoreListFile>
+  </IgnoreList>
+  <DirectoryHotList>
+    <HotDir Name="home" Path="/home/carl"/>
+    <HotDir Name="Downloads" Path="/home/carl/Downloads"/>
+    <HotDir Name="MediaDownloads" Path="/home/carl/MediaDownloads"/>
+    <HotDir Name="removable_storage" Path="/media/carl"/>
+    <HotDir Name="Documents" Path="/home/carl/Documents"/>
+    <HotDir Name="Dropbox" Path="/home/carl/Dropbox"/>
+    <HotDir Name="projects" Path="/home/carl/Documents/projects"/>
+    <HotDir Name="InSync" Path="/home/carl/Insync/Carl.Christensen@amsoftware.com"/>
+    <HotDir Name="data" Path="/mnt/data"/>
+    <HotDir Name="/" Path=""/>
+  </DirectoryHotList>
+  <Viewer>
+    <PreviewVisible>True</PreviewVisible>
+    <ImageStretch>False</ImageStretch>
+    <CopyMovePath1/>
+    <CopyMovePath2/>
+    <CopyMovePath3/>
+    <CopyMovePath4/>
+    <CopyMovePath5/>
+    <PaintMode>0</PaintMode>
+    <PaintWidth>5</PaintWidth>
+    <NumberOfColumns>1</NumberOfColumns>
+    <ViewerMode>1</ViewerMode>
+    <PaintColor>255</PaintColor>
+    <BackgroundColor>0</BackgroundColor>
+    <FontColor>16777215</FontColor>
+    <TextPosition>0</TextPosition>
+    <ImageStretchLargeOnly>False</ImageStretchLargeOnly>
+    <ImageCenter>True</ImageCenter>
+    <ImageExifRotate>True</ImageExifRotate>
+    <TabSpaces>8</TabSpaces>
+    <MaxTextWidth>1024</MaxTextWidth>
+    <PrintMargins>200|200|200|200</PrintMargins>
+    <ShowCaret>False</ShowCaret>
+    <LeftMargin>4</LeftMargin>
+    <ExtraLineSpan>0</ExtraLineSpan>
+  </Viewer>
+  <Lua>
+    <PathToLibrary>liblua5.1.so.0</PathToLibrary>
+  </Lua>
+  <NameShortcutFile>shortcuts.scf</NameShortcutFile>
+  <LastUsedPacker>zip</LastUsedPacker>
+  <UseShellForFileOperations>False</UseShellForFileOperations>
+  <SearchTemplates/>
+  <ColumnsSets DefaultTitleHash="0">
+    <ColumnsSet UseFrameCursor="False">
+      <Name>Default</Name>
+      <CustomView>False</CustomView>
+      <FileSystem>&lt;General&gt;</FileSystem>
+      <PixelsPerInch>144</PixelsPerInch>
+      <CursorBorder Enabled="False">
+        <Color>-2147483635</Color>
+      </CursorBorder>
+      <Columns>
+        <Column>
+          <Title>Name</Title>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>1007</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Hack</Name>
+            <Size>11</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Ext</Title>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>180</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Hack</Name>
+            <Size>11</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Size</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>290</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>Hack</Name>
+            <Size>11</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Date</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>159</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>Hack</Name>
+            <Size>11</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Attr</Title>
+          <FuncString>[DC().GETFILEATTR{}]</FuncString>
+          <Width>326</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Hack</Name>
+            <Size>11</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483640</TextColor>
+          <Background>-2147483643</Background>
+          <Background2>-2147483643</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+  </ColumnsSets>
+  <MultiRenamePresets>
+    <LastPreset>{BC322BF1-2185-47F6-9F99-D27ED1E23E53}</LastPreset>
+    <Presets>
+      <Preset>
+        <Name>{BC322BF1-2185-47F6-9F99-D27ED1E23E53}</Name>
+        <Filename>[N]</Filename>
+        <Extension>[E]</Extension>
+        <FilenameStyle>0</FilenameStyle>
+        <ExtensionStyle>0</ExtensionStyle>
+        <Find/>
+        <Replace/>
+        <RegExp>False</RegExp>
+        <UseSubs>False</UseSubs>
+        <Counter>1</Counter>
+        <Interval>1</Interval>
+        <Width>0</Width>
+        <Log>
+          <Enabled>False</Enabled>
+          <Append>False</Append>
+          <File/>
+        </Log>
+      </Preset>
+    </Presets>
+  </MultiRenamePresets>
+  <Editor>
+    <SynEditOptions>856075</SynEditOptions>
+    <EditWaitTime>2000</EditWaitTime>
+    <SynEditTabWidth>8</SynEditTabWidth>
+    <SynEditRightEdge>80</SynEditRightEdge>
+  </Editor>
+  <SyncDirs>
+    <Subdirs>False</Subdirs>
+    <ByContent>False</ByContent>
+    <IgnoreDate>False</IgnoreDate>
+    <FilterCopyRight>True</FilterCopyRight>
+    <FilterEqual>True</FilterEqual>
+    <FilterNotEqual>True</FilterNotEqual>
+    <FilterCopyLeft>True</FilterCopyLeft>
+    <FilterDuplicates>True</FilterDuplicates>
+    <FilterSingles>True</FilterSingles>
+    <FileMask>*</FileMask>
+    <Asymmetric Save="False">False</Asymmetric>
+    <Colors>
+      <Left>32768</Left>
+      <Right>16711680</Right>
+      <Unknown>255</Unknown>
+    </Colors>
+  </SyncDirs>
+  <InternalAssociations>
+    <OfferToAddNewFileType>False</OfferToAddNewFileType>
+    <LastCustomAction>Custom action</LastCustomAction>
+    <ExpandedContextMenu>False</ExpandedContextMenu>
+    <ExecuteViaShell>False</ExecuteViaShell>
+    <OpenSystemWithTerminalClose>False</OpenSystemWithTerminalClose>
+    <OpenSystemWithTerminalStayOpen>False</OpenSystemWithTerminalStayOpen>
+    <IncludeFileAssociation>False</IncludeFileAssociation>
+    <FilenameStyle>0</FilenameStyle>
+    <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
+    <PathModifierElements>0</PathModifierElements>
+  </InternalAssociations>
+  <FavoriteTabsOptions>
+    <FavoriteTabsUseRestoreExtraOptions>False</FavoriteTabsUseRestoreExtraOptions>
+    <WhereToAdd>1</WhereToAdd>
+    <Expand>True</Expand>
+    <GotoConfigAftSav>False</GotoConfigAftSav>
+    <GotoConfigAftReSav>False</GotoConfigAftReSav>
+    <DfltLeftGoTo>0</DfltLeftGoTo>
+    <DfltRightGoTo>1</DfltRightGoTo>
+    <DfltKeep>5</DfltKeep>
+    <DfltSaveDirHistory>False</DfltSaveDirHistory>
+    <FavTabsLastUniqueID>{2FDB4366-C9C7-4D9C-9FB1-166DF0FEEF94}</FavTabsLastUniqueID>
+  </FavoriteTabsOptions>
+  <LastDoAnyCommand>cm_Refresh</LastDoAnyCommand>
+  <Description>
+    <CreateNewUnicode>True</CreateNewUnicode>
+    <DefaultEncoding>2</DefaultEncoding>
+    <CreateNewEncoding>3</CreateNewEncoding>
+  </Description>
+  <TreeViewMenu>
+    <UseTVMDirectoryHotlistFMC>False</UseTVMDirectoryHotlistFMC>
+    <UseTVMDirectoryHotlistFDC>False</UseTVMDirectoryHotlistFDC>
+    <UseTVMFavoriteTabsFMC>False</UseTVMFavoriteTabsFMC>
+    <UseTVMFavoriteTabsFDC>False</UseTVMFavoriteTabsFDC>
+    <UseTVMDirHistory>True</UseTVMDirHistory>
+    <UseTVMViewHistory>False</UseTVMViewHistory>
+    <UseTVMCommandLineHistory>False</UseTVMCommandLineHistory>
+    <TreeViewMenuShortcutExit>True</TreeViewMenuShortcutExit>
+    <TreeViewMenuSingleClickExit>True</TreeViewMenuSingleClickExit>
+    <TreeViewMenuDoubleClickExit>True</TreeViewMenuDoubleClickExit>
+    <Context00>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context00>
+    <Context01>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context01>
+    <Context02>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context02>
+    <Context03>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context03>
+    <Context04>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context04>
+    <Context05>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context05>
+    <Context06>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context06>
+    <TreeViewMenuUseKeyboardShortcut>True</TreeViewMenuUseKeyboardShortcut>
+    <BackgroundColor>-2147483617</BackgroundColor>
+    <ShortcutColor>255</ShortcutColor>
+    <NormalTextColor>-2147483640</NormalTextColor>
+    <SecondaryTextColor>-2147483642</SecondaryTextColor>
+    <FoundTextColor>-2147483635</FoundTextColor>
+    <UnselectableTextColor>-2147483631</UnselectableTextColor>
+    <CursorColor>-2147483635</CursorColor>
+    <ShortcutUnderCursor>-2147483634</ShortcutUnderCursor>
+    <NormalTextUnderCursor>-2147483634</NormalTextUnderCursor>
+    <SecondaryTextUnderCursor>-2147483628</SecondaryTextUnderCursor>
+    <FoundTextUnderCursor>65535</FoundTextUnderCursor>
+    <UnselectableUnderCursor>-2147483631</UnselectableUnderCursor>
+  </TreeViewMenu>
+  <HotKeySortOrder>0</HotKeySortOrder>
+  <UseEnterToCloseHotKeyEditor>True</UseEnterToCloseHotKeyEditor>
+  <MarkMaskCaseSensitive>False</MarkMaskCaseSensitive>
+  <MarkMaskIgnoreAccents>False</MarkMaskIgnoreAccents>
+  <MarkMaskFilterWindows>False</MarkMaskFilterWindows>
+  <MarkShowWantedAttribute>False</MarkShowWantedAttribute>
+  <MarkDefaultWantedAttribute/>
+  <MarkLastWantedAttribute/>
+  <Differ>
+    <Colors>
+      <Added>11206570</Added>
+      <Deleted>11184895</Deleted>
+      <Modified>16755370</Modified>
+      <Binary>
+        <Modified>255</Modified>
+      </Binary>
+    </Colors>
+    <IgnoreCase>False</IgnoreCase>
+    <KeepScrolling>True</KeepScrolling>
+    <PaintBackground>True</PaintBackground>
+    <LineDifferences>False</LineDifferences>
+    <IgnoreWhiteSpace>False</IgnoreWhiteSpace>
+    <AutoCompare>True</AutoCompare>
+  </Differ>
+</doublecmd>
