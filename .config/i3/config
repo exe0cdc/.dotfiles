@@ -32,10 +32,10 @@ bindsym $mod+Shift+q kill
 bindsym $mod+F4 kill
 
 # start rofi (a program launcher)
-bindsym $mod+d exec rofi -show run -lines 5 -eh 2 -opacity "85" -bw 0 -bc "$base00" -bg "$base00" -fg "$base05" -hlbg "$base02" -hlfg "$base05" -font "Hack 12"
-bindsym $mod+Shift+d exec rofi -show window -eh 2 -opacity "85" -bw 0 -bc "$base00" -bg "$base00" -fg "$base05" -hlbg "$base02" -hlfg "$base05" -font "Hack 12"
-bindsym $mod+Shift+s exec echo "" | rofi -dmenu -lines 1 -eh 2 -opacity "85" -bw 0 -bc "$base00" -bg "$base00" -fg "$base05" -hlbg "$base02" -hlfg "$base05" -font "Hack 12" -p "Search:" | xargs -I{} xdg-open "https://www.google.com/search?q={}"
-bindsym $mod+Shift+w exec echo "" | rofi -dmenu -lines 0 -eh 2 -opacity "85" -bw 0 -bc "$base00" -bg "$base00" -fg "$base05" -hlbg "$base02" -hlfg "$base05" -font "Hack 12" -p "Add to TickTick" | xargs -I{} ticktask {}
+bindsym $mod+d exec rofi -show run -theme base16oceancustom 
+bindsym $mod+Shift+d exec rofi -show window -theme base16oceancustom
+bindsym $mod+Shift+s exec echo "" | rofi -dmenu -theme base16oceancustom1line -p "Search" | xargs -I{} xdg-open "https://www.google.com/search?q={}"
+bindsym $mod+Shift+w exec echo "" | rofi -dmenu -theme base16oceancustom1line -p "Add to TickTick" | xargs -I{} ticktask {}
 # change focus
 bindsym $mod+$left focus left
 bindsym $mod+$down focus down
@@ -445,6 +445,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id dropbox start
 exec --no-startup-id insync start
+exec --no-startup-id update-notifier
 #exec --no-startup-id lighdmfix.sh
 #exec --no-startup-id corsair
 #exec /home/carl/bin/xrandr_scale

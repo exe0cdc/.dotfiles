@@ -423,14 +423,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Expansion">/media/carl/</Path>
-                  <Path Filename="Media">/media/carl/Expansion/</Path>
-                  <Path Filename="unsorted">/media/carl/Expansion/Media/</Path>
-                  <Path Filename="movies">/media/carl/Expansion/Media/unsorted/</Path>
-                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/movies/</Path>
-                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/</Path>
-                  <Path Filename="unsorted">/media/carl/Expansion/Media/</Path>
-                  <Path Filename="Media">/media/carl/Expansion/</Path>
                   <Path Filename="6359054E0780D94B">/media/carl/</Path>
                   <Path Filename="Dog Day Afternoon 1975.True.1080p.BluRay.x264 . NVEE">/media/carl/6359054E0780D94B/</Path>
                   <Path Filename="6359054E0780D94B">/media/carl/</Path>
@@ -473,6 +465,14 @@
                   <Path Filename="base16-mate-terminal">/home/carl/bin/</Path>
                   <Path Filename="">/home/carl/bin/base16-mate-terminal/</Path>
                   <Path Filename="..">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/MediaDownloads/</Path>
+                  <Path Filename="Expansion">/media/carl/</Path>
+                  <Path Filename="Media">/media/carl/Expansion/</Path>
+                  <Path Filename="unsorted">/media/carl/Expansion/Media/</Path>
+                  <Path Filename="movies">/media/carl/Expansion/Media/unsorted/</Path>
+                  <Path Filename="Nymphomaniac.Vol.I.2013.Directors.Cut.BRRip.x264-RARBG">/media/carl/Expansion/Media/unsorted/movies/</Path>
+                  <Path Filename="Nymphomaniac.Vol.I.2013.Directors.Cut.BRRip.x264-RARBG.mp4">/media/carl/Expansion/Media/unsorted/movies/Nymphomaniac.Vol.I.2013.Directors.Cut.BRRip.x264-RARBG/</Path>
+                  <Path Filename="Licorice.Pizza.2021.1080p.WEBRip.DD5.1.x264-NOGRP">/media/carl/Expansion/Media/unsorted/movies/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -483,7 +483,7 @@
         </Tab>
       </Left>
       <Right>
-        <ActiveTab>0</ActiveTab>
+        <ActiveTab>1</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
@@ -496,56 +496,126 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Media">/media/carl/Expansion/</Path>
-                  <Path Filename="unsorted">/media/carl/Expansion/Media/</Path>
-                  <Path Filename="movies">/media/carl/Expansion/Media/unsorted/</Path>
-                  <Path Filename="The Wolf House (2018) [1080p] [WEBRip] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
-                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/movies/The Wolf House (2018) [1080p] [WEBRip] [YTS.MX]/</Path>
-                  <Path Filename="appleseed">/media/carl/Expansion/Media/unsorted/movies/</Path>
-                  <Path Filename="Appleseed [1988].mkv">/media/carl/Expansion/Media/unsorted/movies/appleseed/</Path>
-                  <Path Filename="Midsommar (2019) [2160p] [4K] [BluRay] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
-                  <Path Filename="Midsommar.2019.2160p.4K.BluRay.x265.10bit.AAC5.1-[YTS.MX].mkv">/media/carl/Expansion/Media/unsorted/movies/Midsommar (2019) [2160p] [4K] [BluRay] [5.1] [YTS.MX]/</Path>
-                  <Path Filename="Memories (1995) [1080p] [BluRay] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
-                  <Path Filename="Memories.1995.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4">/media/carl/Expansion/Media/unsorted/movies/Memories (1995) [1080p] [BluRay] [5.1] [YTS.MX]/</Path>
-                  <Path Filename="The Witches (2020) [1080p] [WEBRip] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
-                  <Path Filename="The.Witches.2020.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4">/media/carl/Expansion/Media/unsorted/movies/The Witches (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/</Path>
-                  <Path Filename="The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG">/media/carl/Expansion/Media/unsorted/movies/</Path>
-                  <Path Filename="The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG.mp4">/media/carl/Expansion/Media/unsorted/movies/The.Tragedy.of.Macbeth.2021.1080p.WEBRip.x264-RARBG/</Path>
-                  <Path Filename="Color.Out.of.Space.2019.1080p.BluRay.x265-RARBG">/media/carl/Expansion/Media/unsorted/movies/</Path>
-                  <Path Filename="..">/media/carl/Expansion/Media/unsorted/movies/Color.Out.of.Space.2019.1080p.BluRay.x265-RARBG/</Path>
-                  <Path Filename="The Suicide Squad (2021) [1080p] [WEBRip] [5.1] [YTS.MX]">/media/carl/Expansion/Media/unsorted/movies/</Path>
-                  <Path Filename="..">/media/carl/</Path>
-                  <Path Filename="carl">/media/</Path>
-                  <Path Filename="..">/media/carl/</Path>
-                  <Path Filename="Downloads">/home/carl/</Path>
-                  <Path Filename="..">/home/carl/Downloads/</Path>
-                  <Path Filename="bin">/home/carl/</Path>
-                  <Path Filename="base16-mate-terminal">/home/carl/bin/</Path>
-                  <Path Filename="..">/home/carl/bin/base16-mate-terminal/</Path>
-                  <Path Filename="logs">/home/carl/bin/</Path>
                   <Path Filename="..">/home/carl/bin/logs/</Path>
                   <Path Filename="jabref">/home/carl/bin/</Path>
                   <Path Filename="bin">/home/carl/</Path>
-                  <Path Filename="monitor_settings">/home/carl/bin/</Path>
-                  <Path Filename="..">/home/carl/bin/monitor_settings/</Path>
-                  <Path Filename="..">/home/carl/bin/</Path>
-                  <Path Filename="base16-mate-terminal">/home/carl/</Path>
-                  <Path Filename="base16-atelierplateau.light.sh">/home/carl/base16-mate-terminal/</Path>
-                  <Path Filename=".ssh">/home/carl/</Path>
-                  <Path Filename="id_rsa">/home/carl/.ssh/</Path>
-                  <Path Filename=".oh-my-zsh">/home/carl/</Path>
-                  <Path Filename="">/home/carl/.oh-my-zsh/</Path>
-                  <Path Filename="base16-chalk.light.sh">/home/carl/bin/base16-mate-terminal/</Path>
+                  <Path Filename="logs">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/bin/logs/</Path>
+                  <Path Filename="sigstr">/home/carl/bin/</Path>
+                  <Path Filename="bin">/home/carl/</Path>
                   <Path Filename="base16-mate-terminal">/home/carl/bin/</Path>
-                  <Path Filename="..">/home/carl/</Path>
-                  <Path Filename="carl">/home/</Path>
-                  <Path Filename=".config">/home/carl/</Path>
-                  <Path Filename="i3">/home/carl/.config/</Path>
-                  <Path Filename="..">/home/carl/.config/i3/</Path>
-                  <Path Filename="gtk-3.0">/home/carl/.config/</Path>
-                  <Path Filename=".dotfiles">/home/carl/</Path>
-                  <Path Filename="HEAD">/home/carl/.dotfiles/</Path>
-                  <Path Filename=".dotfiles">/home/carl/</Path>
+                  <Path Filename="">/home/carl/bin/base16-mate-terminal/</Path>
+                  <Path Filename="..">/home/carl/bin/</Path>
+                  <Path Filename="..">/home/carl/MediaDownloads/</Path>
+                  <Path Filename="6359054E0780D94B">/media/carl/</Path>
+                  <Path Filename=".device_info_fad69416-97dd-47bd-ad95-e8ab6cdddc06">/media/carl/6359054E0780D94B/</Path>
+                  <Path Filename="15FF8B294A221C94">/media/carl/</Path>
+                  <Path Filename="roms">/media/carl/15FF8B294A221C94/</Path>
+                  <Path Filename="sega_roms">/media/carl/15FF8B294A221C94/roms/</Path>
+                  <Path Filename="videos">/media/carl/15FF8B294A221C94/</Path>
+                  <Path Filename="Stewart Lee If You Prefer A Milder Comedian Please Ask For One (2010) [1080p] [WEBRip] [YTS.MX]">/media/carl/15FF8B294A221C94/videos/</Path>
+                  <Path Filename="Android">/media/carl/15FF8B294A221C94/</Path>
+                  <Path Filename="data">/media/carl/15FF8B294A221C94/Android/</Path>
+                  <Path Filename="com.google.android.katniss">/media/carl/15FF8B294A221C94/Android/data/</Path>
+                  <Path Filename="files">/media/carl/15FF8B294A221C94/Android/data/com.google.android.katniss/</Path>
+                  <Path Filename="com.showmax.app">/media/carl/15FF8B294A221C94/Android/data/</Path>
+                  <Path Filename="..">/media/carl/15FF8B294A221C94/Android/data/com.showmax.app/</Path>
+                  <Path Filename="com.xiaomi.mitv.updateservice">/media/carl/15FF8B294A221C94/Android/data/</Path>
+                  <Path Filename="..">/media/carl/15FF8B294A221C94/Android/data/com.xiaomi.mitv.updateservice/</Path>
+                  <Path Filename="com.xiaomi.mitv.updateservice">/media/carl/15FF8B294A221C94/Android/data/</Path>
+                  <Path Filename="files">/media/carl/15FF8B294A221C94/Android/data/com.xiaomi.mitv.updateservice/</Path>
+                  <Path Filename="downloads2">/media/carl/15FF8B294A221C94/Android/data/com.xiaomi.mitv.updateservice/files/</Path>
+                  <Path Filename="..">/media/carl/15FF8B294A221C94/Android/data/com.xiaomi.mitv.updateservice/files/downloads2/</Path>
+                  <Path Filename="downloads2">/media/carl/15FF8B294A221C94/Android/data/com.xiaomi.mitv.updateservice/files/</Path>
+                  <Path Filename="files">/media/carl/15FF8B294A221C94/Android/data/com.xiaomi.mitv.updateservice/</Path>
+                  <Path Filename="com.android.vending">/media/carl/15FF8B294A221C94/Android/data/</Path>
+                  <Path Filename="files">/media/carl/15FF8B294A221C94/Android/data/com.android.vending/</Path>
+                  <Path Filename="..">/media/carl/15FF8B294A221C94/Android/data/com.android.vending/files/</Path>
+                  <Path Filename="files">/media/carl/15FF8B294A221C94/Android/data/com.android.vending/</Path>
+                  <Path Filename="com.android.vending">/media/carl/15FF8B294A221C94/Android/data/</Path>
+                  <Path Filename="data">/media/carl/15FF8B294A221C94/Android/</Path>
+                  <Path Filename="tv.twitch.android.app">/media/carl/15FF8B294A221C94/Android/data/</Path>
+                  <Path Filename="files">/media/carl/15FF8B294A221C94/Android/data/tv.twitch.android.app/</Path>
+                  <Path Filename="..">/media/carl/15FF8B294A221C94/Android/data/tv.twitch.android.app/files/</Path>
+                  <Path Filename="files">/media/carl/15FF8B294A221C94/Android/data/tv.twitch.android.app/</Path>
+                  <Path Filename="tv.twitch.android.app">/media/carl/15FF8B294A221C94/Android/data/</Path>
+                  <Path Filename="obb">/media/carl/15FF8B294A221C94/Android/</Path>
+                  <Path Filename="com.retroarch">/media/carl/15FF8B294A221C94/Android/obb/</Path>
+                  <Path Filename="..">/media/carl/15FF8B294A221C94/Android/obb/com.retroarch/</Path>
+                  <Path Filename="com.retroarch">/media/carl/15FF8B294A221C94/Android/obb/</Path>
+                  <Path Filename="obb">/media/carl/15FF8B294A221C94/Android/</Path>
+                  <Path Filename="roms">/media/carl/15FF8B294A221C94/</Path>
+                  <Path Filename="">/media/carl/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="The Unbearable Lightness of Being (1988) h264-720p AC3-2ch.mkv">/media/carl/Expansion/Media/Movies/The Unbearable Lightness of Being (1988)/</Path>
+                  <Path Filename="Pulp Fiction (1994)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="disc.png">/media/carl/Expansion/Media/Movies/Pulp Fiction (1994)/</Path>
+                  <Path Filename="The Unbearable Lightness of Being (1988)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="The Unbearable Lightness of Being (1988) h264-720p AC3-2ch.mkv">/media/carl/Expansion/Media/Movies/The Unbearable Lightness of Being (1988)/</Path>
+                  <Path Filename="Young Frankenstein (1974)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="poster.jpg">/media/carl/Expansion/Media/Movies/Young Frankenstein (1974)/</Path>
+                  <Path Filename="Wolf Children (2012)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/Movies/Wolf Children (2012)/</Path>
+                  <Path Filename="Valhalla Rising (2009)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Valhalla Rising (2009) h264-1080p AAC-6ch.mp4">/media/carl/Expansion/Media/Movies/Valhalla Rising (2009)/</Path>
+                  <Path Filename="Moonlight (2016)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Moonlight (2016) h264-1080p DTS-6ch.eng.srt">/media/carl/Expansion/Media/Movies/Moonlight (2016)/</Path>
+                  <Path Filename="Moonlight (2016)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/Movies/Moonlight (2016)/</Path>
+                  <Path Filename="Manchester by the Sea (2016)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Manchester by the Sea (2016) h264-1080p AAC-6ch.mkv">/media/carl/Expansion/Media/Movies/Manchester by the Sea (2016)/</Path>
+                  <Path Filename="Sorry to Bother You (2018)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Sorry to Bother You (2018) h264-1080p AC3-6ch.mkv">/media/carl/Expansion/Media/Movies/Sorry to Bother You (2018)/</Path>
+                  <Path Filename="The Nightmare Before Christmas (1993)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/Movies/The Nightmare Before Christmas (1993)/</Path>
+                  <Path Filename="The Lord of the Rings - The Return of the King - Theatrical Edition (2003)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/Movies/The Lord of the Rings - The Return of the King - Theatrical Edition (2003)/</Path>
+                  <Path Filename="Popstar - Never Stop Never Stopping (2016)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Popstar - Never Stop Never Stopping (2016) h264-1080p AAC-6ch.mkv">/media/carl/Expansion/Media/Movies/Popstar - Never Stop Never Stopping (2016)/</Path>
+                  <Path Filename="Evangelion - 2.0 You Can (Not) Advance (2009)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/Movies/Evangelion - 2.0 You Can (Not) Advance (2009)/</Path>
+                  <Path Filename="Wyrmwood - Road of the Dead (2014)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Wyrmwood - Road of the Dead (2014) h264-1080p DTS-6ch.srt">/media/carl/Expansion/Media/Movies/Wyrmwood - Road of the Dead (2014)/</Path>
+                  <Path Filename="Wyrmwood - Road of the Dead (2014)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Movies">/media/carl/Expansion/Media/</Path>
+                  <Path Filename="Berserk - The Golden Age Arc 1 - The Egg of the King (2012)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/Movies/Berserk - The Golden Age Arc 1 - The Egg of the King (2012)/</Path>
+                  <Path Filename="Berserk - The Golden Age Arc 2 - The Battle for Doldrey (2012)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/Movies/Berserk - The Golden Age Arc 2 - The Battle for Doldrey (2012)/</Path>
+                  <Path Filename="..">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Movies">/media/carl/Expansion/Media/</Path>
+                  <Path Filename="Berserk - The Golden Age Arc 1 - The Egg of the King (2012)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Berserk - The Golden Age Arc 1 - The Egg of the King (2012) h264-1080p AAC-6ch.mp4">/media/carl/Expansion/Media/Movies/Berserk - The Golden Age Arc 1 - The Egg of the King (2012)/</Path>
+                  <Path Filename="Berserk - The Golden Age Arc 1 - The Egg of the King (2012)">/media/carl/Expansion/Media/Movies/</Path>
+                  <Path Filename="Movies">/media/carl/Expansion/Media/</Path>
+                  <Path Filename="Media">/media/carl/Expansion/</Path>
+                  <Path Filename="15FF8B294A221C94">/media/carl/</Path>
+                  <Path Filename="..">/media/carl/15FF8B294A221C94/</Path>
+                  <Path Filename="Expansion">/media/carl/</Path>
+                  <Path Filename="carl">/media/</Path>
+                  <Path Filename="Expansion">/media/carl/</Path>
+                  <Path Filename="..">/media/carl/Expansion/</Path>
+                  <Path Filename="6359054E0780D94B">/media/carl/</Path>
+                  <Path Filename="Red Rocket (2021) [1080p] [WEBRip] [YTS.MX]">/media/carl/6359054E0780D94B/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -649,37 +719,37 @@
   </Tools>
   <Fonts>
     <Main>
-      <Name>Hack</Name>
+      <Name>Hack Nerd Font</Name>
       <Size>13</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Main>
     <Editor>
-      <Name>Hack</Name>
+      <Name>Hack Nerd Font</Name>
       <Size>10</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Editor>
     <Viewer>
-      <Name>Hack</Name>
+      <Name>Hack Nerd Font</Name>
       <Size>10</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Viewer>
     <Log>
-      <Name>Hack</Name>
+      <Name>Hack Nerd Font</Name>
       <Size>10</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Log>
     <ViewerBook>
-      <Name>Hack</Name>
+      <Name>Hack Nerd Font</Name>
       <Size>10</Size>
       <Style>1</Style>
       <Quality>0</Quality>
     </ViewerBook>
     <Console>
-      <Name>Hack</Name>
+      <Name>Hack Nerd Font</Name>
       <Size>10</Size>
       <Style>0</Style>
       <Quality>0</Quality>
@@ -703,7 +773,7 @@
       <Quality>0</Quality>
     </SearchResults>
     <PathEdit>
-      <Name>Hack</Name>
+      <Name>Hack Nerd Font</Name>
       <Size>9</Size>
       <Style>0</Style>
       <Quality>0</Quality>

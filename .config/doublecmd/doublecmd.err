@@ -386,3 +386,26 @@ Unhandled exception: EAccessViolation: Access violation
   Stack trace:
   $00007FC9AF2FE2A4 in /lib/x86_64-linux-gnu/libgobject-2.0.so.0
 
+--------------- 30-04-2023, 19:46:16 ---------------
+| DC v1.0.10 Rev. 239 -- x86_64-Linux-gtk2
+| Ubuntu 20.04.5 LTS -- GTK 2.24.32 | PID 164473
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $000000000045B44F line 1017, column 45 of gtk2widgetset.inc in /usr/lib/doublecmd/doublecmd
+  $00000000007A3B1D line 818, column 3 of gtk2wscontrols.pp in /usr/lib/doublecmd/doublecmd
+  $00000000005F4DE1 line 4783, column 24 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000064B1FD line 658, column 5 of include/customedit.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006D5A19 in /usr/lib/doublecmd/doublecmd
+  $00000000006299CF line 973, column 5 of include/font.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000B54F34 line 208, column 48 of frames/foptionsfonts.pas in /usr/lib/doublecmd/doublecmd
+  $000000000064B181 line 644, column 3 of include/customedit.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005FD435 line 8401, column 3 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000434DCA in /usr/lib/doublecmd/doublecmd
+  $00000000005F66F5 line 5429, column 28 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000064A99D line 500, column 28 of include/customedit.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000602C58 line 1617, column 11 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004EEFD1 line 2450, column 7 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004EEE49 line 2559, column 17 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000005F64E5 line 5357, column 22 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000079BC38 line 112, column 36 of lclmessageglue.pas in /usr/lib/doublecmd/doublecmd
+
