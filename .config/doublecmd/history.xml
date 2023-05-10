@@ -2,56 +2,57 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/media/carl/6359054E0780D94B/</Item>
-      <Item>/media/carl/</Item>
-      <Item>/media/carl/Expansion/</Item>
-      <Item>/media/</Item>
-      <Item>/media/carl/15FF8B294A221C94/</Item>
-      <Item>/media/carl/Expansion/Media/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Berserk - The Golden Age Arc 1 - The Egg of the King (2012)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Berserk - The Golden Age Arc 2 - The Battle for Doldrey (2012)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Wyrmwood - Road of the Dead (2014)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Evangelion - 2.0 You Can (Not) Advance (2009)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Popstar - Never Stop Never Stopping (2016)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/The Lord of the Rings - The Return of the King - Theatrical Edition (2003)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/The Nightmare Before Christmas (1993)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Sorry to Bother You (2018)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Manchester by the Sea (2016)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Moonlight (2016)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Valhalla Rising (2009)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Wolf Children (2012)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Young Frankenstein (1974)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/The Unbearable Lightness of Being (1988)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/Pulp Fiction (1994)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/The Witch (2016)/</Item>
-      <Item>/media/carl/Expansion/Media/Movies/The Wrestler (2008)/</Item>
-      <Item>/media/carl/Expansion/Media/unsorted/</Item>
-      <Item>/media/carl/Expansion/Media/unsorted/movies/</Item>
-      <Item>/media/carl/Expansion/Media/unsorted/movies/Nymphomaniac.Vol.I.2013.Directors.Cut.BRRip.x264-RARBG/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/obb/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/obb/com.retroarch/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/tv.twitch.android.app/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/tv.twitch.android.app/files/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/com.android.vending/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/com.android.vending/files/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/com.xiaomi.mitv.updateservice/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/com.xiaomi.mitv.updateservice/files/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/com.xiaomi.mitv.updateservice/files/downloads2/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/com.showmax.app/</Item>
-      <Item>/media/carl/15FF8B294A221C94/Android/data/com.google.android.katniss/</Item>
-      <Item>/media/carl/15FF8B294A221C94/videos/</Item>
-      <Item>/media/carl/15FF8B294A221C94/roms/</Item>
-      <Item>/home/carl/MediaDownloads/</Item>
-      <Item>/home/carl/</Item>
-      <Item>/home/carl/.dotfiles/</Item>
-      <Item>/home/carl/.config/</Item>
-      <Item>/home/carl/.config/i3/</Item>
+      <Item>/mnt/data/</Item>
+      <Item>/mnt/</Item>
+      <Item>/</Item>
+      <Item>/mnt/backup/</Item>
+      <Item>/mnt/extra/</Item>
+      <Item>/mnt/extra/carl/</Item>
+      <Item>/mnt/extra/carl/Win10 21H2 English x64/</Item>
+      <Item>/mnt/extra/carl/O365ProPlusRetail/</Item>
+      <Item>/mnt/extra/carl/VMs/</Item>
+      <Item>/mnt/extra/carl/VMs/Win10/</Item>
       <Item>/home/</Item>
-      <Item>/home/carl/bin/</Item>
-      <Item>/home/carl/bin/base16-mate-terminal/</Item>
+      <Item>/home/carl/</Item>
+      <Item>/home/carl/Downloads/</Item>
+      <Item>/home/carl/Downloads/books/</Item>
+      <Item>/home/carl/Documents/</Item>
+      <Item>/home/carl/Desktop/</Item>
+      <Item>/home/carl/Documents/old_docs/</Item>
+      <Item>/home/carl/Documents/old_docs/carl_notes/</Item>
+      <Item>/home/carl/Documents/Papers/</Item>
+      <Item>/home/carl/Documents/Papers/pyscestoolbox_paper/</Item>
+      <Item>/home/carl/Documents/projects/</Item>
+      <Item>/home/carl/Documents/projects/kaggle/</Item>
+      <Item>/home/carl/Documents/projects/misc_work/</Item>
+      <Item>/home/carl/Documents/projects/boston_or_french/</Item>
+      <Item>/home/carl/Documents/projects/LocalSolver/</Item>
+      <Item>/home/carl/Documents/projects/LocalSolver/LocalSolver_IO/</Item>
+      <Item>/home/carl/Documents/projects/LocalSolver/LocalSolverOpt/</Item>
+      <Item>/home/carl/Documents/projects/mlops/</Item>
+      <Item>/home/carl/Documents/projects/optimization/</Item>
+      <Item>/home/carl/Documents/projects/optimization/to_send/</Item>
+      <Item>/home/carl/Documents/projects/desktop_setup/</Item>
+      <Item>/home/carl/Documents/projects/old_docs/</Item>
+      <Item>/home/carl/Documents/projects/old_docs/ARIMA/</Item>
+      <Item>/home/carl/Documents/projects/BLOCKCHAIN-POC/</Item>
+      <Item>/home/carl/Documents/projects/stable-diffusion/</Item>
+      <Item>/home/carl/Downloads/hack/</Item>
+      <Item>/home/carl/Downloads/temp/</Item>
+      <Item>/home/carl/Dropbox/</Item>
+      <Item>/home/carl/obsidian/</Item>
+      <Item>/home/carl/temp/</Item>
+      <Item>/home/carl/remote_desktop_share/</Item>
+      <Item>/home/carl/Insync/</Item>
+      <Item>/home/carl/Insync/Carl.Christensen@amsoftware.com/</Item>
+      <Item>/home/carl/lib/</Item>
+      <Item>/home/carl/go/</Item>
+      <Item>/home/carl/Steam/</Item>
+      <Item>/home/carl/stuff_from_laptop/</Item>
+      <Item>/home/carl/stuff_from_laptop/Documents/</Item>
+      <Item>/home/carl/stuff_from_laptop/Documents/Papers/</Item>
+      <Item>/home/carl/stuff_from_laptop/config/</Item>
+      <Item>/home/carl/PycharmProjects/</Item>
     </Navigation>
     <CommandLine>
       <Item>cd /home/carl/miniconda3/envs/powerbi_reporting_env/lib/python3.8/site-packages/azure/ai/ml/</Item>
