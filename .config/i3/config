@@ -348,8 +348,7 @@ bindsym $mod+Shift+KP_Divide exec player_control previous; exec cmus-remote -r
 
 # Misc keybindings
 bindsym $mod+grave exec doublecmd
-#bindsym $mod+Shift+grave exec /home/carl/Applications/doublecmd/doublecmd
-bindsym $mod+Print exec mate-panel-screenshot
+bindsym Print exec flameshot gui
 bindsym Pause workspace $workspace9
 
 # Widow Colours
@@ -428,7 +427,7 @@ exec_always --no-startup-id xmodmap -e "keycode 118 ="
 bindsym XF86Launch5 exec --no-startup-id "xmodmap -e 'keysym Mode_switch = XF86Launch1' && xmodmap -e 'keysym ISO_Level3_Shift = Mode_switch' && xmodmap -e 'keysym XF86Launch1 = ISO_Level3_Shift'"
 
 # Startup apps
-exec_always --no-startup-id feh --bg-fill "/home/carl/Pictures/99 - Rh5WExb.jpg"
+exec_always --no-startup-id feh --bg-fill "/home/carl/Pictures/9 - x6qNl8g.jpg"
 exec_always amixer -q set Headphone 100 unmute
 exec_always killall mate-notification-daemon
 exec_always --no-startup-id dunst
@@ -438,7 +437,7 @@ exec_always --no-startup-id numlockx on
 #exec --no-startup-id set_to_dp
 exec --no-startup-id mate-polkit
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh
-exec --no-startup-id compton --config ~/.config/compt.conf -b
+exec --no-startup-id picom --config ~/.config/picom.conf -b
 exec --no-startup-id pulseaudio
 exec --no-startup-id udiskie -s
 exec --no-startup-id nm-applet

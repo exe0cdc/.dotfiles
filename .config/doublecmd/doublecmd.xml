@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="1.0.10" ConfigVersion="13">
+<doublecmd DCVersion="1.0.11" ConfigVersion="13">
   <Configuration Save="True" TreeType="0" SortOrder="0">
     <FolderTabs Save="True"/>
   </Configuration>
@@ -493,43 +493,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/home/carl/Documents/projects/desktop_setup/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/</Path>
-                  <Path Filename="projects">/home/carl/Documents/</Path>
-                  <Path Filename="stable-diffusion">/home/carl/Documents/projects/</Path>
-                  <Path Filename="projects">/home/carl/Documents/</Path>
-                  <Path Filename="optimization">/home/carl/Documents/projects/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/optimization/</Path>
-                  <Path Filename="optimization">/home/carl/Documents/projects/</Path>
-                  <Path Filename="to_send">/home/carl/Documents/projects/optimization/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/optimization/to_send/</Path>
-                  <Path Filename="to_send">/home/carl/Documents/projects/optimization/</Path>
-                  <Path Filename="mlops">/home/carl/Documents/projects/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/mlops/</Path>
-                  <Path Filename="misc_work">/home/carl/Documents/projects/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/misc_work/</Path>
-                  <Path Filename="LocalSolver">/home/carl/Documents/projects/</Path>
-                  <Path Filename="LocalSolverOpt">/home/carl/Documents/projects/LocalSolver/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/LocalSolver/LocalSolverOpt/</Path>
-                  <Path Filename="LocalSolver_IO">/home/carl/Documents/projects/LocalSolver/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/LocalSolver/LocalSolver_IO/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/LocalSolver/</Path>
-                  <Path Filename="LocalSolver">/home/carl/Documents/projects/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/LocalSolver/</Path>
-                  <Path Filename="boston_or_french">/home/carl/Documents/projects/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/boston_or_french/</Path>
-                  <Path Filename="misc_work">/home/carl/Documents/projects/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/misc_work/</Path>
-                  <Path Filename="kaggle">/home/carl/Documents/projects/</Path>
-                  <Path Filename="..">/home/carl/Documents/projects/kaggle/</Path>
-                  <Path Filename="mlops">/home/carl/Documents/projects/</Path>
-                  <Path Filename="Papers">/home/carl/Documents/</Path>
-                  <Path Filename="pyscestoolbox_paper">/home/carl/Documents/Papers/</Path>
-                  <Path Filename="..">/home/carl/Documents/Papers/pyscestoolbox_paper/</Path>
-                  <Path Filename="pyscestoolbox_paper">/home/carl/Documents/Papers/</Path>
-                  <Path Filename="old_docs">/home/carl/Documents/</Path>
-                  <Path Filename="carl_notes">/home/carl/Documents/old_docs/</Path>
-                  <Path Filename="..">/home/carl/Documents/old_docs/carl_notes/</Path>
                   <Path Filename="carl_notes">/home/carl/Documents/old_docs/</Path>
                   <Path Filename="Jabref_Database">/home/carl/Documents/</Path>
                   <Path Filename="Downloads">/home/carl/</Path>
@@ -542,7 +505,44 @@
                   <Path Filename="books">/home/carl/Downloads/</Path>
                   <Path Filename="..">/home/carl/Downloads/books/</Path>
                   <Path Filename="books">/home/carl/Downloads/</Path>
-                  <Path Filename="gurobi.lic">/home/carl/</Path>
+                  <Path Filename="Dropbox">/home/carl/</Path>
+                  <Path Filename="temp">/home/carl/Dropbox/</Path>
+                  <Path Filename="..">/home/carl/Dropbox/temp/</Path>
+                  <Path Filename="research_docs">/home/carl/Dropbox/</Path>
+                  <Path Filename="..">/home/carl/Dropbox/research_docs/</Path>
+                  <Path Filename="optimization">/home/carl/Dropbox/</Path>
+                  <Path Filename="..">/home/carl/Dropbox/optimization/</Path>
+                  <Path Filename="Old">/home/carl/Dropbox/</Path>
+                  <Path Filename="..">/home/carl/Dropbox/Old/</Path>
+                  <Path Filename="model_and_data">/home/carl/Dropbox/</Path>
+                  <Path Filename="..">/home/carl/Dropbox/model_and_data/</Path>
+                  <Path Filename="Apps">/home/carl/Dropbox/</Path>
+                  <Path Filename="..">/home/carl/Dropbox/Apps/</Path>
+                  <Path Filename="anom_forecast">/home/carl/Dropbox/</Path>
+                  <Path Filename="..">/home/carl/Dropbox/anom_forecast/</Path>
+                  <Path Filename="Apps">/home/carl/Dropbox/</Path>
+                  <Path Filename="remotely-save">/home/carl/Dropbox/Apps/</Path>
+                  <Path Filename="my-obsidian">/home/carl/Dropbox/Apps/remotely-save/</Path>
+                  <Path Filename="..">/home/carl/Dropbox/Apps/remotely-save/my-obsidian/</Path>
+                  <Path Filename="my-obsidian">/home/carl/Dropbox/Apps/remotely-save/</Path>
+                  <Path Filename="remotely-save">/home/carl/Dropbox/Apps/</Path>
+                  <Path Filename="5th Edition">/home/carl/Dropbox/</Path>
+                  <Path Filename="..">/home/carl/Dropbox/5th Edition/</Path>
+                  <Path Filename="5th Edition">/home/carl/Dropbox/</Path>
+                  <Path Filename="MediaDownloads">/home/carl/</Path>
+                  <Path Filename="..">/home/carl/MediaDownloads/</Path>
+                  <Path Filename="Backup2">/media/carl/</Path>
+                  <Path Filename=".config">/media/carl/Backup2/</Path>
+                  <Path Filename="pulse">/media/carl/Backup2/.config/</Path>
+                  <Path Filename="..">/media/carl/Backup2/.config/pulse/</Path>
+                  <Path Filename="pulse">/media/carl/Backup2/.config/</Path>
+                  <Path Filename="..">/media/carl/Backup2/.config/pulse/</Path>
+                  <Path Filename="user-dirs.locale">/media/carl/Backup2/.config/</Path>
+                  <Path Filename=".config">/media/carl/Backup2/</Path>
+                  <Path Filename="pulse">/media/carl/Backup2/.config/</Path>
+                  <Path Filename="cookie">/media/carl/Backup2/.config/pulse/</Path>
+                  <Path Filename="compt.conf">/media/carl/Backup2/.config/</Path>
+                  <Path Filename="..">/media/carl/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -636,14 +636,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Berserk - The Golden Age Arc 1 - The Egg of the King (2012)">/media/carl/Expansion/Media/Movies/</Path>
-                  <Path Filename="Berserk - The Golden Age Arc 1 - The Egg of the King (2012) h264-1080p AAC-6ch.mp4">/media/carl/Expansion/Media/Movies/Berserk - The Golden Age Arc 1 - The Egg of the King (2012)/</Path>
-                  <Path Filename="Berserk - The Golden Age Arc 1 - The Egg of the King (2012)">/media/carl/Expansion/Media/Movies/</Path>
-                  <Path Filename="Movies">/media/carl/Expansion/Media/</Path>
-                  <Path Filename="Media">/media/carl/Expansion/</Path>
-                  <Path Filename="15FF8B294A221C94">/media/carl/</Path>
-                  <Path Filename="..">/media/carl/15FF8B294A221C94/</Path>
-                  <Path Filename="Expansion">/media/carl/</Path>
                   <Path Filename="carl">/media/</Path>
                   <Path Filename="Expansion">/media/carl/</Path>
                   <Path Filename="..">/media/carl/Expansion/</Path>
@@ -686,6 +678,14 @@
                   <Path Filename="mnt">/</Path>
                   <Path Filename="data">/mnt/</Path>
                   <Path Filename="SteamGames">/mnt/data/</Path>
+                  <Path Filename="home_extra">/mnt/</Path>
+                  <Path Filename="carl">/mnt/home_extra/</Path>
+                  <Path Filename="Downloads">/mnt/home_extra/carl/</Path>
+                  <Path Filename="carl">/mnt/home_extra/</Path>
+                  <Path Filename="home_extra">/mnt/</Path>
+                  <Path Filename="mnt">/</Path>
+                  <Path Filename=".config">/home/carl/</Path>
+                  <Path Filename="smplayer">/home/carl/.config/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -707,7 +707,7 @@
       <Splitter>50</Splitter>
       <Left>0</Left>
       <Top>24</Top>
-      <Width>1917</Width>
+      <Width>3840</Width>
       <Height>2107</Height>
       <PixelsPerInch>144</PixelsPerInch>
     </Position>
@@ -758,7 +758,7 @@
     <DateTimeFormat>dd/mm/yy</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>False</ShowSystemFiles>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>

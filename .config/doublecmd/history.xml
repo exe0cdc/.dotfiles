@@ -2,9 +2,29 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/mnt/data/</Item>
-      <Item>/mnt/</Item>
+      <Item>/media/carl/Backup2/.config/</Item>
+      <Item>/media/carl/Backup2/.config/pulse/</Item>
+      <Item>/media/carl/Backup2/</Item>
+      <Item>/media/carl/</Item>
+      <Item>/home/carl/.config/</Item>
+      <Item>/home/carl/</Item>
       <Item>/</Item>
+      <Item>/mnt/</Item>
+      <Item>/mnt/home_extra/</Item>
+      <Item>/mnt/home_extra/carl/</Item>
+      <Item>/home/carl/MediaDownloads/</Item>
+      <Item>/home/carl/Dropbox/</Item>
+      <Item>/home/carl/Dropbox/5th Edition/</Item>
+      <Item>/home/carl/Dropbox/Apps/</Item>
+      <Item>/home/carl/Dropbox/Apps/remotely-save/</Item>
+      <Item>/home/carl/Dropbox/Apps/remotely-save/my-obsidian/</Item>
+      <Item>/home/carl/Dropbox/anom_forecast/</Item>
+      <Item>/home/carl/Dropbox/model_and_data/</Item>
+      <Item>/home/carl/Dropbox/Old/</Item>
+      <Item>/home/carl/Dropbox/optimization/</Item>
+      <Item>/home/carl/Dropbox/research_docs/</Item>
+      <Item>/home/carl/Dropbox/temp/</Item>
+      <Item>/mnt/data/</Item>
       <Item>/mnt/backup/</Item>
       <Item>/mnt/extra/</Item>
       <Item>/mnt/extra/carl/</Item>
@@ -13,7 +33,6 @@
       <Item>/mnt/extra/carl/VMs/</Item>
       <Item>/mnt/extra/carl/VMs/Win10/</Item>
       <Item>/home/</Item>
-      <Item>/home/carl/</Item>
       <Item>/home/carl/Downloads/</Item>
       <Item>/home/carl/Downloads/books/</Item>
       <Item>/home/carl/Documents/</Item>
@@ -33,26 +52,6 @@
       <Item>/home/carl/Documents/projects/optimization/</Item>
       <Item>/home/carl/Documents/projects/optimization/to_send/</Item>
       <Item>/home/carl/Documents/projects/desktop_setup/</Item>
-      <Item>/home/carl/Documents/projects/old_docs/</Item>
-      <Item>/home/carl/Documents/projects/old_docs/ARIMA/</Item>
-      <Item>/home/carl/Documents/projects/BLOCKCHAIN-POC/</Item>
-      <Item>/home/carl/Documents/projects/stable-diffusion/</Item>
-      <Item>/home/carl/Downloads/hack/</Item>
-      <Item>/home/carl/Downloads/temp/</Item>
-      <Item>/home/carl/Dropbox/</Item>
-      <Item>/home/carl/obsidian/</Item>
-      <Item>/home/carl/temp/</Item>
-      <Item>/home/carl/remote_desktop_share/</Item>
-      <Item>/home/carl/Insync/</Item>
-      <Item>/home/carl/Insync/Carl.Christensen@amsoftware.com/</Item>
-      <Item>/home/carl/lib/</Item>
-      <Item>/home/carl/go/</Item>
-      <Item>/home/carl/Steam/</Item>
-      <Item>/home/carl/stuff_from_laptop/</Item>
-      <Item>/home/carl/stuff_from_laptop/Documents/</Item>
-      <Item>/home/carl/stuff_from_laptop/Documents/Papers/</Item>
-      <Item>/home/carl/stuff_from_laptop/config/</Item>
-      <Item>/home/carl/PycharmProjects/</Item>
     </Navigation>
     <CommandLine>
       <Item>cd /home/carl/miniconda3/envs/powerbi_reporting_env/lib/python3.8/site-packages/azure/ai/ml/</Item>
